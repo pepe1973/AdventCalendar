@@ -1,412 +1,514 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta
-            name="viewport"
-            content="width=device-width, initial-scale=1.0"
-        />
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-        />
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-        <link
-            rel="stylesheet"
-            href="./stilus.css"
-        />
-        <link
-            rel="shortcut icon"
-            href="./favicon.ico"
-            type="image/x-icon"
-        />
-        <title>Advent Calendar</title>
-    </head>
-    <body>
-        <div id="cim">2025 Advent <img src="./mascot_bw.min.svg" /></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-3 fiok">1</div>
-                <div class="col-sm-3 fiok">2</div>
-                <div class="col-sm-3 fiok">3</div>
-                <div class="col-sm-3 fiok">4</div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 fiok">5</div>
-                <div class="col-sm-4 fiok">6</div>
-                <div class="col-sm-4 fiok">7</div>
-            </div>
-            <div class="row">
-                <div class="col-sm-3 fiok">8</div>
-                <div class="col-sm-3 fiok">9</div>
-                <div class="col-sm-3 fiok">10</div>
-                <div class="col-sm-3 fiok">11</div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 fiok">12</div>
-                <div class="col-sm-4 fiok">13</div>
-                <div class="col-sm-4 fiok">14</div>
-            </div>
-            <div class="row">
-                <div class="col-sm-3 fiok">15</div>
-                <div class="col-sm-3 fiok">16</div>
-                <div class="col-sm-3 fiok">17</div>
-                <div class="col-sm-3 fiok">18</div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 fiok">19</div>
-                <div class="col-sm-4 fiok">20</div>
-                <div class="col-sm-4 fiok">21</div>
-            </div>
-            <div class="row">
-                <div class="col-sm-3 fiok">22</div>
-                <div class="col-sm-3 fiok">23</div>
-                <div class="col-sm-3 fiok">24</div>
-                <div class="col-sm-3 fiok">25</div>
-            </div>
-        </div>
-        <div
-            class="modal"
-            id="myModal_1"
-        >
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <!-- Modal Header -->
-                    <div class="modal-header">
-                        <h4 class="modal-title">
-                            2025. november 30. Advent első vasárnapja
-                        </h4>
-                        <button
-                            type="button"
-                            class="btn-close"
-                            data-bs-dismiss="modal"
-                        ></button>
-                    </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./stilus.css" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <title>Advent Calendar</title>
+  </head>
+  <body>
+    <div id="cim">2025 Advent <img src="./mascot_bw.min.svg" /></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3 fiok">1</div>
+        <div class="col-sm-3 fiok">2</div>
+        <div class="col-sm-3 fiok">3</div>
+        <div class="col-sm-3 fiok">4</div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 fiok">5</div>
+        <div class="col-sm-4 fiok">6</div>
+        <div class="col-sm-4 fiok">7</div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3 fiok">8</div>
+        <div class="col-sm-3 fiok">9</div>
+        <div class="col-sm-3 fiok">10</div>
+        <div class="col-sm-3 fiok">11</div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 fiok">12</div>
+        <div class="col-sm-4 fiok">13</div>
+        <div class="col-sm-4 fiok">14</div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3 fiok">15</div>
+        <div class="col-sm-3 fiok">16</div>
+        <div class="col-sm-3 fiok">17</div>
+        <div class="col-sm-3 fiok">18</div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 fiok">19</div>
+        <div class="col-sm-4 fiok">20</div>
+        <div class="col-sm-4 fiok">21</div>
+      </div>
+      <div class="row">
+        <div class="col-sm-3 fiok">22</div>
+        <div class="col-sm-3 fiok">23</div>
+        <div class="col-sm-3 fiok">24</div>
+        <div class="col-sm-3 fiok">25</div>
+      </div>
+    </div>
+    <div class="modal" id="myModal_1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">
+              2025. november 30. Advent első vasárnapja
+            </h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
 
-                    <!-- Modal body -->
-                    <div class="modal-body">
-                        <div class="modal-kep">
-                            <img src="./images/kep_01.jpeg" />
-                        </div>
-                        <h4>Kedves Tanulók!</h4>
-                        <p>
-                            Az advent időszak első napján egy kis általános
-                            áttekintéssel kezdődik iskolánk adventi naptára is.
-                        </p>
-                        <p>
-                            Olvashattok többek között az adventi időszak
-                            kezdetéről, jelentőségéről, az adventi koszorú
-                            szimbólumairól és történetéről.
-                        </p>
-                        <p>
-                            Köszönjük az ezzel kapcsolatos gyűjtőmunkát a 9.A és
-                            9.B tanulóinak!
-                        </p>
-                        <p>
-                            A karácsonyi ünnepkör advent első vasárnapjával
-                            kezdődik és vízkeresztig, január 6-ig tart.
-                        </p>
-                        <p>
-                            <b>Advent</b> az ünnepekre való készülődés és a
-                            reményteli várakozás időszaka, amely a karácsony,
-                            december 25. előtti negyedik vasárnappal kezdődik.
-                            Így tehát minden évben, advent első vasárnapjától,
-                            már november végétől elkezdődik a várakozás,
-                            készülődés erre a meghitt ünnepre.
-                        </p>
-                        <p>
-                            Az advent szó jelentése a latin „adventus Domini”
-                            kifejezésből származik, és azt jelenti: „az Úr
-                            eljövetele”. Ez egy lelki felkészülés Jézus
-                            eljövetelére, egy csendesebb, elmélkedéssel
-                            eltöltött hónap.
-                        </p>
-                        <p>
-                            Az adventet az 5. század óta tartják. A karácsony
-                            ünneplésével együtt terjedt el, a kezdetektől
-                            összetartozik a két fogalom: karácsony és advent, a
-                            felkészülés és az ünneplés. A négy vasárnapból álló
-                            adventi időszakot VII. Gergely pápa rendelte el.
-                        </p>
-                        <h3>Az adventi koszorú</h3>
-                        <p>
-                            Az adventi koszorún ilyenkor azért gyújtanak meg
-                            hétről hétre több gyertyát, hogy karácsonyra
-                            világosság legyen ott, ahol Jézust várják. Ez az
-                            embereknek egy lelki felkészülés Jézus eljövetelére.
-                        </p>
-                        <p>
-                            Az adventi koszorú hagyománya 1838-ból származik
-                            Johann Heinrich Wichern protestáns lelkésztől. Az
-                            első gyermekotthon megalapítója a ház egyik termében
-                            fából hatalmas csillárt készíttetett, és minden
-                            istentiszteleten egy újabb gyertyát tűzött a
-                            csillárkoszorúba. Ezen a kocsikerék nagyságú adventi
-                            koszorún 24 gyertya állt. Minden hétköznap
-                            meggyújtottak egy fehéret, és minden vasárnap egy
-                            pirosat. Az ötlet gyorsan követőkre talált, de csak
-                            1860-ban, Berlin-Tegelben született meg az a
-                            gondolat, hogy a fakarikát fonott fenyőkoszorúval
-                            helyettesítsék, és a huszonnégy gyertya helyett
-                            csupán négyet tűzzenek rá, a négy adventi vasárnap
-                            jelképeként.
-                        </p>
-                        <p>
-                            A gyertyák színe katolikus körökben egy kivételével
-                            lila: a bűnbánat és a megtérés jelképe. A meggyújtás
-                            sorrendjében a harmadik gyertya rózsaszín, ami a
-                            küszöbön álló ünnep fölött érzett örömöt, valamint
-                            Mária anyai örömeit szimbolizálja. Az adventi
-                            koszorún meggyújtott gyertyák közül mindegyik egy
-                            fogalmat szimbolizál: hit, remény, szeretet, öröm. A
-                            gyertyák egyben a katolikus szimbolika szerint
-                            egy-egy személyre vagy közösségre is utalnak: Ádám
-                            és Éva - mint akiknek elsőként ígérte meg Isten a
-                            megváltást (hit); zsidó nép - akinek megígérte, hogy
-                            közülük származik a Messiás (remény); Keresztelő
-                            Szent János - aki hirdette Jézus eljövetelét, és
-                            készítette az utat az emberek szívéhez (szeretet);
-                            Szűz Mária - aki megszülte a Fiút (öröm - rózsaszín
-                            gyertya).
-                        </p>
-                        <h3>Adventi kalendárium</h3>
-                        <p>
-                            Manapság nálunk is elterjedt a gyerekek által igen
-                            kedvelt adventi naptár, ami ennek az időszaknak az
-                            időmérő eszköze. Azon időszak előrehaladtára
-                            figyelmeztet nap, mint nap, melynek vége karácsony
-                            ünnepe. Az adventi házikók, naptárak ablakaiból
-                            minden nap csak egyet szabad kinyitni, mögöttük
-                            leggyakrabban édesség rejtőzik. Régen inkább kis
-                            képek, vagy karácsonyi jókívánságokra nyíltak az
-                            ablakok.
-                        </p>
-                    </div>
-                </div>
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="modal-kep">
+              <img src="./images/kep_01.jpeg" />
             </div>
+            <h4>Kedves Tanulók!</h4>
+            <p>
+              Az advent időszak első napján egy kis általános áttekintéssel
+              kezdődik iskolánk adventi naptára is.
+            </p>
+            <p>
+              Olvashattok többek között az adventi időszak kezdetéről,
+              jelentőségéről, az adventi koszorú szimbólumairól és történetéről.
+            </p>
+            <p>
+              Köszönjük az ezzel kapcsolatos gyűjtőmunkát a 9.A és 9.B
+              tanulóinak!
+            </p>
+            <p>
+              A karácsonyi ünnepkör advent első vasárnapjával kezdődik és
+              vízkeresztig, január 6-ig tart.
+            </p>
+            <p>
+              <b>Advent</b> az ünnepekre való készülődés és a reményteli
+              várakozás időszaka, amely a karácsony, december 25. előtti
+              negyedik vasárnappal kezdődik. Így tehát minden évben, advent első
+              vasárnapjától, már november végétől elkezdődik a várakozás,
+              készülődés erre a meghitt ünnepre.
+            </p>
+            <p>
+              Az advent szó jelentése a latin „adventus Domini” kifejezésből
+              származik, és azt jelenti: „az Úr eljövetele”. Ez egy lelki
+              felkészülés Jézus eljövetelére, egy csendesebb, elmélkedéssel
+              eltöltött hónap.
+            </p>
+            <p>
+              Az adventet az 5. század óta tartják. A karácsony ünneplésével
+              együtt terjedt el, a kezdetektől összetartozik a két fogalom:
+              karácsony és advent, a felkészülés és az ünneplés. A négy
+              vasárnapból álló adventi időszakot VII. Gergely pápa rendelte el.
+            </p>
+            <h3>Az adventi koszorú</h3>
+            <p>
+              Az adventi koszorún ilyenkor azért gyújtanak meg hétről hétre több
+              gyertyát, hogy karácsonyra világosság legyen ott, ahol Jézust
+              várják. Ez az embereknek egy lelki felkészülés Jézus eljövetelére.
+            </p>
+            <p>
+              Az adventi koszorú hagyománya 1838-ból származik Johann Heinrich
+              Wichern protestáns lelkésztől. Az első gyermekotthon megalapítója
+              a ház egyik termében fából hatalmas csillárt készíttetett, és
+              minden istentiszteleten egy újabb gyertyát tűzött a
+              csillárkoszorúba. Ezen a kocsikerék nagyságú adventi koszorún 24
+              gyertya állt. Minden hétköznap meggyújtottak egy fehéret, és
+              minden vasárnap egy pirosat. Az ötlet gyorsan követőkre talált, de
+              csak 1860-ban, Berlin-Tegelben született meg az a gondolat, hogy a
+              fakarikát fonott fenyőkoszorúval helyettesítsék, és a huszonnégy
+              gyertya helyett csupán négyet tűzzenek rá, a négy adventi vasárnap
+              jelképeként.
+            </p>
+            <p>
+              A gyertyák színe katolikus körökben egy kivételével lila: a
+              bűnbánat és a megtérés jelképe. A meggyújtás sorrendjében a
+              harmadik gyertya rózsaszín, ami a küszöbön álló ünnep fölött
+              érzett örömöt, valamint Mária anyai örömeit szimbolizálja. Az
+              adventi koszorún meggyújtott gyertyák közül mindegyik egy fogalmat
+              szimbolizál: hit, remény, szeretet, öröm. A gyertyák egyben a
+              katolikus szimbolika szerint egy-egy személyre vagy közösségre is
+              utalnak: Ádám és Éva - mint akiknek elsőként ígérte meg Isten a
+              megváltást (hit); zsidó nép - akinek megígérte, hogy közülük
+              származik a Messiás (remény); Keresztelő Szent János - aki
+              hirdette Jézus eljövetelét, és készítette az utat az emberek
+              szívéhez (szeretet); Szűz Mária - aki megszülte a Fiút (öröm -
+              rózsaszín gyertya).
+            </p>
+            <h3>Adventi kalendárium</h3>
+            <p>
+              Manapság nálunk is elterjedt a gyerekek által igen kedvelt adventi
+              naptár, ami ennek az időszaknak az időmérő eszköze. Azon időszak
+              előrehaladtára figyelmeztet nap, mint nap, melynek vége karácsony
+              ünnepe. Az adventi házikók, naptárak ablakaiból minden nap csak
+              egyet szabad kinyitni, mögöttük leggyakrabban édesség rejtőzik.
+              Régen inkább kis képek, vagy karácsonyi jókívánságokra nyíltak az
+              ablakok.
+            </p>
+          </div>
         </div>
-        <div
-            class="modal"
-            id="myModal_2"
-        >
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <!-- Modal Header -->
-                    <div class="modal-header">
-                        <h4 class="modal-title">2025. december 1.</h4>
-                        <button
-                            type="button"
-                            class="btn-close"
-                            data-bs-dismiss="modal"
-                        ></button>
-                    </div>
+      </div>
+    </div>
+    <div class="modal" id="myModal_2">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">2025. december 1.</h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
 
-                    <!-- Modal body -->
-                    <div class="modal-body">
-                        <div class="modal-kep">
-                            <img src="./images/kep_02.jpeg" />
-                        </div>
-                        <h4>Kedves Tanulók!</h4>
-                        <p>Az adventi időszak kulcsszava a várakozás.</p>
-                        <p>
-                            A várakozás a karácsony ünnepére, ami a keresztény
-                            gondolkodás szerint annak ünnepe, hogy a
-                            megszületett Jézus Krisztusban Isten megtestesült,
-                            vagyis eddig soha nem látott és tapasztalt módon
-                            jött közel az emberhez.
-                        </p>
-                        <p>
-                            Az advent azonban nem csak tétlen várakozást, hanem
-                            készülődést is jelent, felkészülést a megszülető
-                            Istengyermek fogadására.
-                        </p>
-                        <p>
-                            Éppen ezért az adventi időszakban szokássá vált az
-                            is, hogy napról-napra apró jócselekedeteket végzünk.
-                            Ennek célja egyrészt az, hogy örömet szerezzünk
-                            másoknak; de az is, hogy a mi szívünk legyen
-                            nyitottabb, figyelmesebb mások felé…
-                        </p>
-                        <p>
-                            A mai bejegyzésünkben egy ilyen „naptárt” teszünk
-                            közzé.
-                        </p>
-                        <p>
-                            Apró szívességeket, figyelmességeket tartalmaz
-                            december elsejétől minden napra…
-                        </p>
-                        <p>
-                            Lehet, hogy a Te helyzetedre, körülményeidre épp nem
-                            illik rá egyik vagy másik szívesség. Vagy éppen a
-                            jelen helyzetben nem megvalósítható.
-                        </p>
-                        <p>
-                            De nem ez a lényeg: ha valóban akarjuk, meg tudjuk
-                            találni az útját annak, hogy örömet szerezzünk
-                            másoknak…
-                        </p>
-                    </div>
-                </div>
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="modal-kep">
+              <img src="./images/kep_02.jpeg" />
             </div>
+            <h4>Kedves Tanulók!</h4>
+            <p>Az adventi időszak kulcsszava a várakozás.</p>
+            <p>
+              A várakozás a karácsony ünnepére, ami a keresztény gondolkodás
+              szerint annak ünnepe, hogy a megszületett Jézus Krisztusban Isten
+              megtestesült, vagyis eddig soha nem látott és tapasztalt módon
+              jött közel az emberhez.
+            </p>
+            <p>
+              Az advent azonban nem csak tétlen várakozást, hanem készülődést is
+              jelent, felkészülést a megszülető Istengyermek fogadására.
+            </p>
+            <p>
+              Éppen ezért az adventi időszakban szokássá vált az is, hogy
+              napról-napra apró jócselekedeteket végzünk. Ennek célja egyrészt
+              az, hogy örömet szerezzünk másoknak; de az is, hogy a mi szívünk
+              legyen nyitottabb, figyelmesebb mások felé…
+            </p>
+            <p>A mai bejegyzésünkben egy ilyen „naptárt” teszünk közzé.</p>
+            <p>
+              Apró szívességeket, figyelmességeket tartalmaz december elsejétől
+              minden napra…
+            </p>
+            <p>
+              Lehet, hogy a Te helyzetedre, körülményeidre épp nem illik rá
+              egyik vagy másik szívesség. Vagy éppen a jelen helyzetben nem
+              megvalósítható.
+            </p>
+            <p>
+              De nem ez a lényeg: ha valóban akarjuk, meg tudjuk találni az
+              útját annak, hogy örömet szerezzünk másoknak…
+            </p>
+          </div>
         </div>
-        <div
-            class="modal"
-            id="myModal_3"
-        >
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <!-- Modal Header -->
-                    <div class="modal-header">
-                        <h4 class="modal-title">2025. december 2.</h4>
-                        <button
-                            type="button"
-                            class="btn-close"
-                            data-bs-dismiss="modal"
-                        ></button>
-                    </div>
+      </div>
+    </div>
+    <div class="modal" id="myModal_3">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">2025. december 2.</h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
 
-                    <!-- Modal body -->
-                    <div class="modal-body">
-                        <div class="modal-kep">
-                            <img src="./images/kep_03.jpeg" />
-                        </div>
-                        <h4>Kedves Tanulók!</h4>
-                        <p>
-                            A korunkat meghatározó fogyasztói társadalomnak erős
-                            törekvése, hogy a karácsonyt, az ehhez kapcsolódó
-                            ajándékozás szokását kizárólagos céljává, lényegévé
-                            tegye az ünnepnek.
-                        </p>
-                        <p>
-                            A Gorove házaspár saját tapasztalatain alapuló
-                            tanácsok segíthetnek bennünket visszafogni ezt a
-                            tendenciát és a felfedezni magunknak a karácsony
-                            igazi lényegét.
-                        </p>
-                        <p>Íme:</p>
-                        <h3>Gorove László és Kriszta: Stresszmentes advent?</h3>
-                        <p>
-                            Az advent mindig a rohanás, a kapkodás, a tülekedés,
-                            és az állandó idegeskedés ideje. Talán nem is lehet
-                            másképp. Vagy mégis?
-                        </p>
-                        <p>
-                            Az alábbiakban néhány ötletet szeretnénk megosztani
-                            veletek, amelyek nálunk, vagy másoknál beváltak.
-                        </p>
-                        <ol>
-                            <li>
-                                Először is ne áltassátok magatokat. Semmi esély
-                                arra, hogy az adventi időszakban kevesebb lesz a
-                                munka, vagy nyugodtabb az élet. Ugyanúgy munkába
-                                kell járni, a gyerekeket iskolába óvodába vinni,
-                                a házimunkát ellátni. Sőt az év vége
-                                közeledtével sok munkahelyen még több is lesz a
-                                munka, gond, elvégzendő feladat. És mindehhez
-                                még a karácsonyra is készülni kell.
-                            </li>
-                            <li>
-                                Okos dolog minél előbb elintézni a karácsonyi
-                                nagytakarítást, mondjuk november végéig, hogy
-                                decemberre már csak az apróságok maradjanak.
-                            </li>
-                            <li>
-                                Semmi ne maradjon az év végére, ami előbb
-                                elintézhető. (Időszakos orvosi vizsgálat,
-                                rokonlátogatás, hivatalos ügyek intézése,
-                                útlevél kiváltás stb.) Nálunk úgyis mindig
-                                ilyenkor romlik el mosógép… 😊
-                            </li>
-                            <li>
-                                Érdemes ajándéklistát készíteni. Erre először
-                                felírni mindenkinek a nevét, akit meg akartok
-                                ajándékozni, aztán ha valami megvan mellé írni,
-                                hogy mi lesz az. Nekünk jól bevált, hogy már
-                                ősszel elkezdünk gyűjtögetni, úgy hogy december
-                                előtt már minden meglegyen.
-                            </li>
-                            <li>
-                                Ugyancsak érdemes az ajándékokat előre
-                                becsomagolni és felcímkézni ha már úgyis
-                                megvannak, vagy még egyszerűbb - ha ezen senki
-                                nem sértődik meg - csomagolás nélkül átadni. (Mi
-                                ilyenkor környezetbarát ajándékról szoktunk
-                                beszélni.)
-                            </li>
-                            <li>
-                                Ne halmozzátok az ajándékokat, elég mindenkinek
-                                egy, de az legyen meglepetés!
-                            </li>
-                            <li>
-                                Nekünk nagyon bevált az adventi naptár különböző
-                                formája. Nem csak édesség, hanem szentírási
-                                idézet, vagy esetleg egy egy feladat az adott
-                                napra is lehet benne.
-                            </li>
-                            <li>
-                                Érdemes a gyerekekkel együtt barkácsolni -
-                                készíteni ajándékot a nagyszülőknek,
-                                ismerősöknek stb. Ezzel megtanulják a saját
-                                maguk készítette ajándék örömét.
-                            </li>
-                            <li>
-                                Érdemes a karácsonyi leveleket, lapokat is
-                                időben elintézni, nekünk néha egy őszi együtt
-                                töltött hétvége fél napja alatt elkészül, és túl
-                                vagyunk rajta. Érdemes körlevelet írni a
-                                barátoknak, ismerősöknek.
-                            </li>
-                            <li>
-                                Jó dolog a gyerekekkel együtt sütni, lehetőleg
-                                olyan sütit, ami eláll karácsonyig,
-                                természetesen jól elrejtve.
-                            </li>
-                            <li>
-                                Az advent rengeteg - egyébként nagyon jó -
-                                programot is kínál, az ádventi koszorú
-                                készítéstől, a lelkinapig, de lehet hogy béke és
-                                a nyugalom érdekében nem kell ezeken mind részt
-                                venni.
-                            </li>
-                            <li>
-                                A karácsonyi vacsora lényege az együttlét, és a
-                                család öröme. Fölösleges napokat tölteni a
-                                konyhában mindenféle tradicionális karácsonyi
-                                étel főzésével idegeskedve. Nálunk a hideg
-                                saláták is tökéletesen megteszik. Ezeket előre
-                                el lehet készíteni, és csak elő kell venni a
-                                hűtőből.
-                            </li>
-                            <li>
-                                Érdemes a karácsonyi nagy élelmiszer bevásárlást
-                                is jó előre megejteni. A hajnali órák nagyon
-                                megfelelőek erre, és a közvetlen karácsonynap
-                                előtti bevásárlásra is.
-                            </li>
-                            <li>
-                                Érdemes a karácsonyfa állítást már 23-án este
-                                elkezdeni
-                            </li>
-                            <li>
-                                Előnyös ha az ajándékok között van olyan amit az
-                                este folyamán együtt lehet játszani a
-                                gyerekekkel.
-                            </li>
-                        </ol>
-                    </div>
-                </div>
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="modal-kep">
+              <img src="./images/kep_03.jpeg" />
             </div>
+            <h4>Kedves Tanulók!</h4>
+            <p>
+              A korunkat meghatározó fogyasztói társadalomnak erős törekvése,
+              hogy a karácsonyt, az ehhez kapcsolódó ajándékozás szokását
+              kizárólagos céljává, lényegévé tegye az ünnepnek.
+            </p>
+            <p>
+              A Gorove házaspár saját tapasztalatain alapuló tanácsok
+              segíthetnek bennünket visszafogni ezt a tendenciát és a felfedezni
+              magunknak a karácsony igazi lényegét.
+            </p>
+            <p>Íme:</p>
+            <h3>Gorove László és Kriszta: Stresszmentes advent?</h3>
+            <p>
+              Az advent mindig a rohanás, a kapkodás, a tülekedés, és az állandó
+              idegeskedés ideje. Talán nem is lehet másképp. Vagy mégis?
+            </p>
+            <p>
+              Az alábbiakban néhány ötletet szeretnénk megosztani veletek,
+              amelyek nálunk, vagy másoknál beváltak.
+            </p>
+            <ol>
+              <li>
+                Először is ne áltassátok magatokat. Semmi esély arra, hogy az
+                adventi időszakban kevesebb lesz a munka, vagy nyugodtabb az
+                élet. Ugyanúgy munkába kell járni, a gyerekeket iskolába óvodába
+                vinni, a házimunkát ellátni. Sőt az év vége közeledtével sok
+                munkahelyen még több is lesz a munka, gond, elvégzendő feladat.
+                És mindehhez még a karácsonyra is készülni kell.
+              </li>
+              <li>
+                Okos dolog minél előbb elintézni a karácsonyi nagytakarítást,
+                mondjuk november végéig, hogy decemberre már csak az apróságok
+                maradjanak.
+              </li>
+              <li>
+                Semmi ne maradjon az év végére, ami előbb elintézhető.
+                (Időszakos orvosi vizsgálat, rokonlátogatás, hivatalos ügyek
+                intézése, útlevél kiváltás stb.) Nálunk úgyis mindig ilyenkor
+                romlik el mosógép… 😊
+              </li>
+              <li>
+                Érdemes ajándéklistát készíteni. Erre először felírni
+                mindenkinek a nevét, akit meg akartok ajándékozni, aztán ha
+                valami megvan mellé írni, hogy mi lesz az. Nekünk jól bevált,
+                hogy már ősszel elkezdünk gyűjtögetni, úgy hogy december előtt
+                már minden meglegyen.
+              </li>
+              <li>
+                Ugyancsak érdemes az ajándékokat előre becsomagolni és
+                felcímkézni ha már úgyis megvannak, vagy még egyszerűbb - ha
+                ezen senki nem sértődik meg - csomagolás nélkül átadni. (Mi
+                ilyenkor környezetbarát ajándékról szoktunk beszélni.)
+              </li>
+              <li>
+                Ne halmozzátok az ajándékokat, elég mindenkinek egy, de az
+                legyen meglepetés!
+              </li>
+              <li>
+                Nekünk nagyon bevált az adventi naptár különböző formája. Nem
+                csak édesség, hanem szentírási idézet, vagy esetleg egy egy
+                feladat az adott napra is lehet benne.
+              </li>
+              <li>
+                Érdemes a gyerekekkel együtt barkácsolni - készíteni ajándékot a
+                nagyszülőknek, ismerősöknek stb. Ezzel megtanulják a saját maguk
+                készítette ajándék örömét.
+              </li>
+              <li>
+                Érdemes a karácsonyi leveleket, lapokat is időben elintézni,
+                nekünk néha egy őszi együtt töltött hétvége fél napja alatt
+                elkészül, és túl vagyunk rajta. Érdemes körlevelet írni a
+                barátoknak, ismerősöknek.
+              </li>
+              <li>
+                Jó dolog a gyerekekkel együtt sütni, lehetőleg olyan sütit, ami
+                eláll karácsonyig, természetesen jól elrejtve.
+              </li>
+              <li>
+                Az advent rengeteg - egyébként nagyon jó - programot is kínál,
+                az ádventi koszorú készítéstől, a lelkinapig, de lehet hogy béke
+                és a nyugalom érdekében nem kell ezeken mind részt venni.
+              </li>
+              <li>
+                A karácsonyi vacsora lényege az együttlét, és a család öröme.
+                Fölösleges napokat tölteni a konyhában mindenféle tradicionális
+                karácsonyi étel főzésével idegeskedve. Nálunk a hideg saláták is
+                tökéletesen megteszik. Ezeket előre el lehet készíteni, és csak
+                elő kell venni a hűtőből.
+              </li>
+              <li>
+                Érdemes a karácsonyi nagy élelmiszer bevásárlást is jó előre
+                megejteni. A hajnali órák nagyon megfelelőek erre, és a
+                közvetlen karácsonynap előtti bevásárlásra is.
+              </li>
+              <li>Érdemes a karácsonyfa állítást már 23-án este elkezdeni</li>
+              <li>
+                Előnyös ha az ajándékok között van olyan amit az este folyamán
+                együtt lehet játszani a gyerekekkel.
+              </li>
+            </ol>
+          </div>
         </div>
-        <script>
-            let fiokok = document.querySelectorAll('.fiok');
+      </div>
+    </div>
+    <div class="modal" id="myModal_4">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">2025. december 3.</h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
 
-            for (let i = 0; i < fiokok.length; i++) {
-                fiokok[i].setAttribute('data-bs-toggle', 'modal');
-                fiokok[i].setAttribute('data-bs-target', `#myModal_${i + 1}`);
-                fiokok[i].addEventListener('click', () => {
-                    console.log(i);
-                });
-            }
-        </script>
-    </body>
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="modal-kep">
+              <img src="./images/kep_04.jpeg" />
+            </div>
+            <h4>Kedves Tanulók!</h4>
+            <p>
+              Az adventi időben régebben szokás volt az böjtöt tartani (a
+              húsvétot megelőző nagyböjthöz hasonlóan a karácsony előtti adventi
+              időszakot "kisböjtnek" is nevezték).
+            </p>
+            <p>
+              Az adventi böjti idő alatt tiltották a zajos mulatságokat és az
+              ünnepélyes házasságkötéseket. A böjtölés hagyománya a 20. század
+              közepén tűnt el. Ma már leginkább csak a lila liturgikus szín és
+              az adventi koszorúk lila gyertyái emlékeztetnek a böjtölés
+              hagyományára.
+            </p>
+            <p>
+              Jelenleg a katolikus egyházban nincsen böjti előírás az adventi
+              időszakra vonatkozóan, ugyanakkor ajánlott a visszafogottság,
+              csend, a több ima és lelki olvasmány, valamint a bűnbocsánat
+              szentségéhez járulás.
+            </p>
+            <p>
+              Így a mai napon adventi naptárunkban is egy édesség, egy sütemény
+              receptjét adjuk közre:
+            </p>
+            <h3>Mézeskalács koszorú</h3>
+            <p>
+              <ins>Hozzávalók: (1 adag)</ins>
+            </p>
+            <p><em>A tésztához:</em></p>
+            <p>
+              - 40 dkg 2.15 dkg porcukor <br />- 3 kiskanál mézeskalács
+              fűszerkeverék <br />- 1 kiskanál sütőpor <br />- 5 dkg vaj <br />-
+              1 db tojás <br />- 2 evőkanál méz
+            </p>
+            <p><em>A mázhoz:</em></p>
+            <p>- 1 db tojásfehérje <br />- 5 dkg porcukor</p>
+            <p>Tészta tetejére: 1 db tojásfehérje.</p>
+            <p>
+              <ins> Elkészítés:</ins>
+            </p>
+            <ol>
+              <li>
+                Egy tálban megolvasztjuk a mézet a vajjal, hozzáadjuk a tojást,
+                a porcukrot, a fűszerkeveréket, a sütőport és a lisztet.
+                Alaposan összegyúrjuk és fél órára betesszük a hűtőbe.
+              </li>
+              <li>
+                Lisztezett deszkán kinyújtjuk és formázzuk tetszésünk szerint. A
+                tészta tetejét sütés előtt megkenjük tojásfehérjével. 180 C
+                fokon 15-20 perc alatt készre sütjük. Hagyjuk hűlni.
+              </li>
+              <li>Az alapon a gyertyák helyét szaggassuk ki.</li>
+              <li>
+                A mázhoz a tojásfehérjét és a porcukrot habverő segítségével
+                verjük fel. Ez legalább 5 perc. Ha kész, nekiállhatunk
+                díszíteni.
+              </li>
+              <li>Végül ragasszuk össze a díszeket az alappal.</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal" id="myModal_5">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">2025. december 4.</h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+
+          <!-- Modal body -->
+          <div class="modal-body">
+            <div class="modal-kep">
+              <img src="./images/kep_05.jpeg" />
+            </div>
+            <h4>Kedves Tanulók!</h4>
+            <p>
+              Újabban nálunk is elterjedt a főként gyermekek által igen kedvelt
+              <b>adventi naptár</b>, ami a karácsony előtti időszak
+              előrehaladtára figyelmeztet nap, mint nap.
+            </p>
+            <p>
+              Használata 1900 körül kezdődött el. Mikor is egy német édesanya,
+              akinek kisfia, Gerhard már jóval az ünnep előtt türelmetlenül
+              várta a megszokott karácsonyi ajándékokat. Ezért édesanyja egy
+              játékot talált ki számára: egy papírlapot 24 részre osztott, és
+              minden részre varrt egy-egy cukorkát. Majd megengedte fiának hogy
+              minden este egyet megegyen belőlük. A fiú, miután felnőtt, nem
+              felejtette el az anyukája ajándékát, így vállalkozásba kezdett.
+              Naptárt készített, amin volt 24 ablakocska, mögéjük édességek
+              rejtve, melyek csak az ablakocskák kinyitása után váltak
+              láthatóvá. Innen ered tehát a ma már szinte hagyománnyá vált
+              adventi naptárunk.
+            </p>
+            <p>
+              A mai napon - még az adventi időszak elején járva - egy ehető
+              adventi naptár receptjét tesszük közzé.
+            </p>
+            <h3>Ehető adventi naptár vajas kekszből</h3>
+            <h5>
+              <ins>Hozzávalók:</ins>
+            </h5>
+            <p>
+              <ins>Keksz:</ins>
+            </p>
+            <p>
+              •40 dkg liszt (+ a nyújtáshoz) <br />•20 dkg porcukor <br />•20
+              dkg vaj <br />•1 db tojás
+            </p>
+            <p><ins>Cukormáz:</ins></p>
+            <p>
+              •1 db tojásfehérje <br />•25 dkg porcukor <br />•1 evőkanál
+              citromlé
+            </p>
+            <p><ins>Díszítés:</ins></p>
+            <p>•cukorgyöngy <br />•ehető filc</p>
+            <p>
+              <ins>Elkészítés:</ins>
+            </p>
+            <ol>
+              <li>
+                A lisztet, a vajjal és a könnyedén felvert tojással
+                összedolgozzuk, majd tésztát gyúrunk belőle. Folpackba
+                csomagoljuk, és legalább 1 órára hűtőszekrénybe tesszük.
+              </li>
+              <li>
+                Lisztezett deszkán kb. 5 mm vastagra nyújtjuk, kiszaggatjuk és
+                180 fokos sütőben 5-6 perc alatt megsütjük.
+              </li>
+              <li>
+                A cukormázhoz összekeverjük a tojásfehérjét, a porcukrot és a
+                citromlevet, majd megkenjük vele a kisült vajas kekszet, és
+                cukorgyönggyel díszítjük mindet. 1 nap szárítás után beszámozzuk
+                őket az ehető filccel.
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      let fiokok = document.querySelectorAll(".fiok");
+
+      for (let i = 0; i < fiokok.length; i++) {
+        fiokok[i].setAttribute("data-bs-toggle", "modal");
+        fiokok[i].setAttribute("data-bs-target", `#myModal_${i + 1}`);
+        fiokok[i].addEventListener("click", () => {
+          console.log(i);
+        });
+      }
+    </script>
+  </body>
 </html>
