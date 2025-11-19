@@ -143,4 +143,8 @@ body {
     .fiok {
         height: 160px;
     }
+
+    iframe {
+        width: 305px !important;
+    }
 }
