@@ -2596,9 +2596,18 @@
             </div>
         </div>
         <script>
+            const dayOfYear = (date) => {
+                return Math.floor(
+                    (date - new Date(date.getFullYear(), 0, 0)) /
+                        (1000 * 60 * 60 * 24)
+                );
+            };
+
             let fiokok = document.querySelectorAll('.fiok');
 
             for (let i = 0; i < fiokok.length; i++) {
+                if (i <= dayOfYear(new Date()) - 334) {
+                }
                 fiokok[i].setAttribute('data-bs-toggle', 'modal');
                 fiokok[i].setAttribute('data-bs-target', `#myModal_${i + 1}`);
                 fiokok[i].addEventListener('click', () => {
