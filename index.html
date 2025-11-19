@@ -1,514 +1,2610 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="./stilus.css" />
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
-    <title>Advent Calendar</title>
-  </head>
-  <body>
-    <div id="cim">2025 Advent <img src="./mascot_bw.min.svg" /></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-3 fiok">1</div>
-        <div class="col-sm-3 fiok">2</div>
-        <div class="col-sm-3 fiok">3</div>
-        <div class="col-sm-3 fiok">4</div>
-      </div>
-      <div class="row">
-        <div class="col-sm-4 fiok">5</div>
-        <div class="col-sm-4 fiok">6</div>
-        <div class="col-sm-4 fiok">7</div>
-      </div>
-      <div class="row">
-        <div class="col-sm-3 fiok">8</div>
-        <div class="col-sm-3 fiok">9</div>
-        <div class="col-sm-3 fiok">10</div>
-        <div class="col-sm-3 fiok">11</div>
-      </div>
-      <div class="row">
-        <div class="col-sm-4 fiok">12</div>
-        <div class="col-sm-4 fiok">13</div>
-        <div class="col-sm-4 fiok">14</div>
-      </div>
-      <div class="row">
-        <div class="col-sm-3 fiok">15</div>
-        <div class="col-sm-3 fiok">16</div>
-        <div class="col-sm-3 fiok">17</div>
-        <div class="col-sm-3 fiok">18</div>
-      </div>
-      <div class="row">
-        <div class="col-sm-4 fiok">19</div>
-        <div class="col-sm-4 fiok">20</div>
-        <div class="col-sm-4 fiok">21</div>
-      </div>
-      <div class="row">
-        <div class="col-sm-3 fiok">22</div>
-        <div class="col-sm-3 fiok">23</div>
-        <div class="col-sm-3 fiok">24</div>
-        <div class="col-sm-3 fiok">25</div>
-      </div>
-    </div>
-    <div class="modal" id="myModal_1">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title">
-              2025. november 30. Advent első vasárnapja
-            </h4>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-            ></button>
-          </div>
-
-          <!-- Modal body -->
-          <div class="modal-body">
-            <div class="modal-kep">
-              <img src="./images/kep_01.jpeg" />
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <link
+            rel="stylesheet"
+            href="./stilus.css"
+        />
+        <link
+            rel="shortcut icon"
+            href="./favicon.ico"
+            type="image/x-icon"
+        />
+        <title>Advent Calendar</title>
+    </head>
+    <body>
+        <div id="cim">2025 Advent <img src="./mascot_bw.min.svg" /></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3 fiok">1</div>
+                <div class="col-sm-3 fiok">2</div>
+                <div class="col-sm-3 fiok">3</div>
+                <div class="col-sm-3 fiok">4</div>
             </div>
-            <h4>Kedves Tanulók!</h4>
-            <p>
-              Az advent időszak első napján egy kis általános áttekintéssel
-              kezdődik iskolánk adventi naptára is.
-            </p>
-            <p>
-              Olvashattok többek között az adventi időszak kezdetéről,
-              jelentőségéről, az adventi koszorú szimbólumairól és történetéről.
-            </p>
-            <p>
-              Köszönjük az ezzel kapcsolatos gyűjtőmunkát a 9.A és 9.B
-              tanulóinak!
-            </p>
-            <p>
-              A karácsonyi ünnepkör advent első vasárnapjával kezdődik és
-              vízkeresztig, január 6-ig tart.
-            </p>
-            <p>
-              <b>Advent</b> az ünnepekre való készülődés és a reményteli
-              várakozás időszaka, amely a karácsony, december 25. előtti
-              negyedik vasárnappal kezdődik. Így tehát minden évben, advent első
-              vasárnapjától, már november végétől elkezdődik a várakozás,
-              készülődés erre a meghitt ünnepre.
-            </p>
-            <p>
-              Az advent szó jelentése a latin „adventus Domini” kifejezésből
-              származik, és azt jelenti: „az Úr eljövetele”. Ez egy lelki
-              felkészülés Jézus eljövetelére, egy csendesebb, elmélkedéssel
-              eltöltött hónap.
-            </p>
-            <p>
-              Az adventet az 5. század óta tartják. A karácsony ünneplésével
-              együtt terjedt el, a kezdetektől összetartozik a két fogalom:
-              karácsony és advent, a felkészülés és az ünneplés. A négy
-              vasárnapból álló adventi időszakot VII. Gergely pápa rendelte el.
-            </p>
-            <h3>Az adventi koszorú</h3>
-            <p>
-              Az adventi koszorún ilyenkor azért gyújtanak meg hétről hétre több
-              gyertyát, hogy karácsonyra világosság legyen ott, ahol Jézust
-              várják. Ez az embereknek egy lelki felkészülés Jézus eljövetelére.
-            </p>
-            <p>
-              Az adventi koszorú hagyománya 1838-ból származik Johann Heinrich
-              Wichern protestáns lelkésztől. Az első gyermekotthon megalapítója
-              a ház egyik termében fából hatalmas csillárt készíttetett, és
-              minden istentiszteleten egy újabb gyertyát tűzött a
-              csillárkoszorúba. Ezen a kocsikerék nagyságú adventi koszorún 24
-              gyertya állt. Minden hétköznap meggyújtottak egy fehéret, és
-              minden vasárnap egy pirosat. Az ötlet gyorsan követőkre talált, de
-              csak 1860-ban, Berlin-Tegelben született meg az a gondolat, hogy a
-              fakarikát fonott fenyőkoszorúval helyettesítsék, és a huszonnégy
-              gyertya helyett csupán négyet tűzzenek rá, a négy adventi vasárnap
-              jelképeként.
-            </p>
-            <p>
-              A gyertyák színe katolikus körökben egy kivételével lila: a
-              bűnbánat és a megtérés jelképe. A meggyújtás sorrendjében a
-              harmadik gyertya rózsaszín, ami a küszöbön álló ünnep fölött
-              érzett örömöt, valamint Mária anyai örömeit szimbolizálja. Az
-              adventi koszorún meggyújtott gyertyák közül mindegyik egy fogalmat
-              szimbolizál: hit, remény, szeretet, öröm. A gyertyák egyben a
-              katolikus szimbolika szerint egy-egy személyre vagy közösségre is
-              utalnak: Ádám és Éva - mint akiknek elsőként ígérte meg Isten a
-              megváltást (hit); zsidó nép - akinek megígérte, hogy közülük
-              származik a Messiás (remény); Keresztelő Szent János - aki
-              hirdette Jézus eljövetelét, és készítette az utat az emberek
-              szívéhez (szeretet); Szűz Mária - aki megszülte a Fiút (öröm -
-              rózsaszín gyertya).
-            </p>
-            <h3>Adventi kalendárium</h3>
-            <p>
-              Manapság nálunk is elterjedt a gyerekek által igen kedvelt adventi
-              naptár, ami ennek az időszaknak az időmérő eszköze. Azon időszak
-              előrehaladtára figyelmeztet nap, mint nap, melynek vége karácsony
-              ünnepe. Az adventi házikók, naptárak ablakaiból minden nap csak
-              egyet szabad kinyitni, mögöttük leggyakrabban édesség rejtőzik.
-              Régen inkább kis képek, vagy karácsonyi jókívánságokra nyíltak az
-              ablakok.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal" id="myModal_2">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title">2025. december 1.</h4>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-            ></button>
-          </div>
-
-          <!-- Modal body -->
-          <div class="modal-body">
-            <div class="modal-kep">
-              <img src="./images/kep_02.jpeg" />
+            <div class="row">
+                <div class="col-sm-4 fiok">5</div>
+                <div class="col-sm-4 fiok">6</div>
+                <div class="col-sm-4 fiok">7</div>
             </div>
-            <h4>Kedves Tanulók!</h4>
-            <p>Az adventi időszak kulcsszava a várakozás.</p>
-            <p>
-              A várakozás a karácsony ünnepére, ami a keresztény gondolkodás
-              szerint annak ünnepe, hogy a megszületett Jézus Krisztusban Isten
-              megtestesült, vagyis eddig soha nem látott és tapasztalt módon
-              jött közel az emberhez.
-            </p>
-            <p>
-              Az advent azonban nem csak tétlen várakozást, hanem készülődést is
-              jelent, felkészülést a megszülető Istengyermek fogadására.
-            </p>
-            <p>
-              Éppen ezért az adventi időszakban szokássá vált az is, hogy
-              napról-napra apró jócselekedeteket végzünk. Ennek célja egyrészt
-              az, hogy örömet szerezzünk másoknak; de az is, hogy a mi szívünk
-              legyen nyitottabb, figyelmesebb mások felé…
-            </p>
-            <p>A mai bejegyzésünkben egy ilyen „naptárt” teszünk közzé.</p>
-            <p>
-              Apró szívességeket, figyelmességeket tartalmaz december elsejétől
-              minden napra…
-            </p>
-            <p>
-              Lehet, hogy a Te helyzetedre, körülményeidre épp nem illik rá
-              egyik vagy másik szívesség. Vagy éppen a jelen helyzetben nem
-              megvalósítható.
-            </p>
-            <p>
-              De nem ez a lényeg: ha valóban akarjuk, meg tudjuk találni az
-              útját annak, hogy örömet szerezzünk másoknak…
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal" id="myModal_3">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title">2025. december 2.</h4>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-            ></button>
-          </div>
-
-          <!-- Modal body -->
-          <div class="modal-body">
-            <div class="modal-kep">
-              <img src="./images/kep_03.jpeg" />
+            <div class="row">
+                <div class="col-sm-3 fiok">8</div>
+                <div class="col-sm-3 fiok">9</div>
+                <div class="col-sm-3 fiok">10</div>
+                <div class="col-sm-3 fiok">11</div>
             </div>
-            <h4>Kedves Tanulók!</h4>
-            <p>
-              A korunkat meghatározó fogyasztói társadalomnak erős törekvése,
-              hogy a karácsonyt, az ehhez kapcsolódó ajándékozás szokását
-              kizárólagos céljává, lényegévé tegye az ünnepnek.
-            </p>
-            <p>
-              A Gorove házaspár saját tapasztalatain alapuló tanácsok
-              segíthetnek bennünket visszafogni ezt a tendenciát és a felfedezni
-              magunknak a karácsony igazi lényegét.
-            </p>
-            <p>Íme:</p>
-            <h3>Gorove László és Kriszta: Stresszmentes advent?</h3>
-            <p>
-              Az advent mindig a rohanás, a kapkodás, a tülekedés, és az állandó
-              idegeskedés ideje. Talán nem is lehet másképp. Vagy mégis?
-            </p>
-            <p>
-              Az alábbiakban néhány ötletet szeretnénk megosztani veletek,
-              amelyek nálunk, vagy másoknál beváltak.
-            </p>
-            <ol>
-              <li>
-                Először is ne áltassátok magatokat. Semmi esély arra, hogy az
-                adventi időszakban kevesebb lesz a munka, vagy nyugodtabb az
-                élet. Ugyanúgy munkába kell járni, a gyerekeket iskolába óvodába
-                vinni, a házimunkát ellátni. Sőt az év vége közeledtével sok
-                munkahelyen még több is lesz a munka, gond, elvégzendő feladat.
-                És mindehhez még a karácsonyra is készülni kell.
-              </li>
-              <li>
-                Okos dolog minél előbb elintézni a karácsonyi nagytakarítást,
-                mondjuk november végéig, hogy decemberre már csak az apróságok
-                maradjanak.
-              </li>
-              <li>
-                Semmi ne maradjon az év végére, ami előbb elintézhető.
-                (Időszakos orvosi vizsgálat, rokonlátogatás, hivatalos ügyek
-                intézése, útlevél kiváltás stb.) Nálunk úgyis mindig ilyenkor
-                romlik el mosógép… 😊
-              </li>
-              <li>
-                Érdemes ajándéklistát készíteni. Erre először felírni
-                mindenkinek a nevét, akit meg akartok ajándékozni, aztán ha
-                valami megvan mellé írni, hogy mi lesz az. Nekünk jól bevált,
-                hogy már ősszel elkezdünk gyűjtögetni, úgy hogy december előtt
-                már minden meglegyen.
-              </li>
-              <li>
-                Ugyancsak érdemes az ajándékokat előre becsomagolni és
-                felcímkézni ha már úgyis megvannak, vagy még egyszerűbb - ha
-                ezen senki nem sértődik meg - csomagolás nélkül átadni. (Mi
-                ilyenkor környezetbarát ajándékról szoktunk beszélni.)
-              </li>
-              <li>
-                Ne halmozzátok az ajándékokat, elég mindenkinek egy, de az
-                legyen meglepetés!
-              </li>
-              <li>
-                Nekünk nagyon bevált az adventi naptár különböző formája. Nem
-                csak édesség, hanem szentírási idézet, vagy esetleg egy egy
-                feladat az adott napra is lehet benne.
-              </li>
-              <li>
-                Érdemes a gyerekekkel együtt barkácsolni - készíteni ajándékot a
-                nagyszülőknek, ismerősöknek stb. Ezzel megtanulják a saját maguk
-                készítette ajándék örömét.
-              </li>
-              <li>
-                Érdemes a karácsonyi leveleket, lapokat is időben elintézni,
-                nekünk néha egy őszi együtt töltött hétvége fél napja alatt
-                elkészül, és túl vagyunk rajta. Érdemes körlevelet írni a
-                barátoknak, ismerősöknek.
-              </li>
-              <li>
-                Jó dolog a gyerekekkel együtt sütni, lehetőleg olyan sütit, ami
-                eláll karácsonyig, természetesen jól elrejtve.
-              </li>
-              <li>
-                Az advent rengeteg - egyébként nagyon jó - programot is kínál,
-                az ádventi koszorú készítéstől, a lelkinapig, de lehet hogy béke
-                és a nyugalom érdekében nem kell ezeken mind részt venni.
-              </li>
-              <li>
-                A karácsonyi vacsora lényege az együttlét, és a család öröme.
-                Fölösleges napokat tölteni a konyhában mindenféle tradicionális
-                karácsonyi étel főzésével idegeskedve. Nálunk a hideg saláták is
-                tökéletesen megteszik. Ezeket előre el lehet készíteni, és csak
-                elő kell venni a hűtőből.
-              </li>
-              <li>
-                Érdemes a karácsonyi nagy élelmiszer bevásárlást is jó előre
-                megejteni. A hajnali órák nagyon megfelelőek erre, és a
-                közvetlen karácsonynap előtti bevásárlásra is.
-              </li>
-              <li>Érdemes a karácsonyfa állítást már 23-án este elkezdeni</li>
-              <li>
-                Előnyös ha az ajándékok között van olyan amit az este folyamán
-                együtt lehet játszani a gyerekekkel.
-              </li>
-            </ol>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal" id="myModal_4">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title">2025. december 3.</h4>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-            ></button>
-          </div>
-
-          <!-- Modal body -->
-          <div class="modal-body">
-            <div class="modal-kep">
-              <img src="./images/kep_04.jpeg" />
+            <div class="row">
+                <div class="col-sm-4 fiok">12</div>
+                <div class="col-sm-4 fiok">13</div>
+                <div class="col-sm-4 fiok">14</div>
             </div>
-            <h4>Kedves Tanulók!</h4>
-            <p>
-              Az adventi időben régebben szokás volt az böjtöt tartani (a
-              húsvétot megelőző nagyböjthöz hasonlóan a karácsony előtti adventi
-              időszakot "kisböjtnek" is nevezték).
-            </p>
-            <p>
-              Az adventi böjti idő alatt tiltották a zajos mulatságokat és az
-              ünnepélyes házasságkötéseket. A böjtölés hagyománya a 20. század
-              közepén tűnt el. Ma már leginkább csak a lila liturgikus szín és
-              az adventi koszorúk lila gyertyái emlékeztetnek a böjtölés
-              hagyományára.
-            </p>
-            <p>
-              Jelenleg a katolikus egyházban nincsen böjti előírás az adventi
-              időszakra vonatkozóan, ugyanakkor ajánlott a visszafogottság,
-              csend, a több ima és lelki olvasmány, valamint a bűnbocsánat
-              szentségéhez járulás.
-            </p>
-            <p>
-              Így a mai napon adventi naptárunkban is egy édesség, egy sütemény
-              receptjét adjuk közre:
-            </p>
-            <h3>Mézeskalács koszorú</h3>
-            <p>
-              <ins>Hozzávalók: (1 adag)</ins>
-            </p>
-            <p><em>A tésztához:</em></p>
-            <p>
-              - 40 dkg 2.15 dkg porcukor <br />- 3 kiskanál mézeskalács
-              fűszerkeverék <br />- 1 kiskanál sütőpor <br />- 5 dkg vaj <br />-
-              1 db tojás <br />- 2 evőkanál méz
-            </p>
-            <p><em>A mázhoz:</em></p>
-            <p>- 1 db tojásfehérje <br />- 5 dkg porcukor</p>
-            <p>Tészta tetejére: 1 db tojásfehérje.</p>
-            <p>
-              <ins> Elkészítés:</ins>
-            </p>
-            <ol>
-              <li>
-                Egy tálban megolvasztjuk a mézet a vajjal, hozzáadjuk a tojást,
-                a porcukrot, a fűszerkeveréket, a sütőport és a lisztet.
-                Alaposan összegyúrjuk és fél órára betesszük a hűtőbe.
-              </li>
-              <li>
-                Lisztezett deszkán kinyújtjuk és formázzuk tetszésünk szerint. A
-                tészta tetejét sütés előtt megkenjük tojásfehérjével. 180 C
-                fokon 15-20 perc alatt készre sütjük. Hagyjuk hűlni.
-              </li>
-              <li>Az alapon a gyertyák helyét szaggassuk ki.</li>
-              <li>
-                A mázhoz a tojásfehérjét és a porcukrot habverő segítségével
-                verjük fel. Ez legalább 5 perc. Ha kész, nekiállhatunk
-                díszíteni.
-              </li>
-              <li>Végül ragasszuk össze a díszeket az alappal.</li>
-            </ol>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal" id="myModal_5">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title">2025. december 4.</h4>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-            ></button>
-          </div>
-
-          <!-- Modal body -->
-          <div class="modal-body">
-            <div class="modal-kep">
-              <img src="./images/kep_05.jpeg" />
+            <div class="row">
+                <div class="col-sm-3 fiok">15</div>
+                <div class="col-sm-3 fiok">16</div>
+                <div class="col-sm-3 fiok">17</div>
+                <div class="col-sm-3 fiok">18</div>
             </div>
-            <h4>Kedves Tanulók!</h4>
-            <p>
-              Újabban nálunk is elterjedt a főként gyermekek által igen kedvelt
-              <b>adventi naptár</b>, ami a karácsony előtti időszak
-              előrehaladtára figyelmeztet nap, mint nap.
-            </p>
-            <p>
-              Használata 1900 körül kezdődött el. Mikor is egy német édesanya,
-              akinek kisfia, Gerhard már jóval az ünnep előtt türelmetlenül
-              várta a megszokott karácsonyi ajándékokat. Ezért édesanyja egy
-              játékot talált ki számára: egy papírlapot 24 részre osztott, és
-              minden részre varrt egy-egy cukorkát. Majd megengedte fiának hogy
-              minden este egyet megegyen belőlük. A fiú, miután felnőtt, nem
-              felejtette el az anyukája ajándékát, így vállalkozásba kezdett.
-              Naptárt készített, amin volt 24 ablakocska, mögéjük édességek
-              rejtve, melyek csak az ablakocskák kinyitása után váltak
-              láthatóvá. Innen ered tehát a ma már szinte hagyománnyá vált
-              adventi naptárunk.
-            </p>
-            <p>
-              A mai napon - még az adventi időszak elején járva - egy ehető
-              adventi naptár receptjét tesszük közzé.
-            </p>
-            <h3>Ehető adventi naptár vajas kekszből</h3>
-            <h5>
-              <ins>Hozzávalók:</ins>
-            </h5>
-            <p>
-              <ins>Keksz:</ins>
-            </p>
-            <p>
-              •40 dkg liszt (+ a nyújtáshoz) <br />•20 dkg porcukor <br />•20
-              dkg vaj <br />•1 db tojás
-            </p>
-            <p><ins>Cukormáz:</ins></p>
-            <p>
-              •1 db tojásfehérje <br />•25 dkg porcukor <br />•1 evőkanál
-              citromlé
-            </p>
-            <p><ins>Díszítés:</ins></p>
-            <p>•cukorgyöngy <br />•ehető filc</p>
-            <p>
-              <ins>Elkészítés:</ins>
-            </p>
-            <ol>
-              <li>
-                A lisztet, a vajjal és a könnyedén felvert tojással
-                összedolgozzuk, majd tésztát gyúrunk belőle. Folpackba
-                csomagoljuk, és legalább 1 órára hűtőszekrénybe tesszük.
-              </li>
-              <li>
-                Lisztezett deszkán kb. 5 mm vastagra nyújtjuk, kiszaggatjuk és
-                180 fokos sütőben 5-6 perc alatt megsütjük.
-              </li>
-              <li>
-                A cukormázhoz összekeverjük a tojásfehérjét, a porcukrot és a
-                citromlevet, majd megkenjük vele a kisült vajas kekszet, és
-                cukorgyönggyel díszítjük mindet. 1 nap szárítás után beszámozzuk
-                őket az ehető filccel.
-              </li>
-            </ol>
-          </div>
+            <div class="row">
+                <div class="col-sm-4 fiok">19</div>
+                <div class="col-sm-4 fiok">20</div>
+                <div class="col-sm-4 fiok">21</div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3 fiok">22</div>
+                <div class="col-sm-3 fiok">23</div>
+                <div class="col-sm-3 fiok">24</div>
+                <div class="col-sm-3 fiok">25</div>
+            </div>
         </div>
-      </div>
-    </div>
-    <script>
-      let fiokok = document.querySelectorAll(".fiok");
+        <div
+            class="modal"
+            id="myModal_1"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">
+                            2025. november 30. Advent első vasárnapja
+                        </h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
 
-      for (let i = 0; i < fiokok.length; i++) {
-        fiokok[i].setAttribute("data-bs-toggle", "modal");
-        fiokok[i].setAttribute("data-bs-target", `#myModal_${i + 1}`);
-        fiokok[i].addEventListener("click", () => {
-          console.log(i);
-        });
-      }
-    </script>
-  </body>
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="modal-kep">
+                            <img src="./images/kep_01.jpeg" />
+                        </div>
+                        <h4>Kedves Tanulók!</h4>
+                        <p>
+                            Az advent időszak első napján egy kis általános
+                            áttekintéssel kezdődik iskolánk adventi naptára is.
+                        </p>
+                        <p>
+                            Olvashattok többek között az adventi időszak
+                            kezdetéről, jelentőségéről, az adventi koszorú
+                            szimbólumairól és történetéről.
+                        </p>
+                        <p>
+                            Köszönjük az ezzel kapcsolatos gyűjtőmunkát a 9.A és
+                            9.B tanulóinak!
+                        </p>
+                        <p>
+                            A karácsonyi ünnepkör advent első vasárnapjával
+                            kezdődik és vízkeresztig, január 6-ig tart.
+                        </p>
+                        <p>
+                            <b>Advent</b> az ünnepekre való készülődés és a
+                            reményteli várakozás időszaka, amely a karácsony,
+                            december 25. előtti negyedik vasárnappal kezdődik.
+                            Így tehát minden évben, advent első vasárnapjától,
+                            már november végétől elkezdődik a várakozás,
+                            készülődés erre a meghitt ünnepre.
+                        </p>
+                        <p>
+                            Az advent szó jelentése a latin „adventus Domini”
+                            kifejezésből származik, és azt jelenti: „az Úr
+                            eljövetele”. Ez egy lelki felkészülés Jézus
+                            eljövetelére, egy csendesebb, elmélkedéssel
+                            eltöltött hónap.
+                        </p>
+                        <p>
+                            Az adventet az 5. század óta tartják. A karácsony
+                            ünneplésével együtt terjedt el, a kezdetektől
+                            összetartozik a két fogalom: karácsony és advent, a
+                            felkészülés és az ünneplés. A négy vasárnapból álló
+                            adventi időszakot VII. Gergely pápa rendelte el.
+                        </p>
+                        <h3>Az adventi koszorú</h3>
+                        <p>
+                            Az adventi koszorún ilyenkor azért gyújtanak meg
+                            hétről hétre több gyertyát, hogy karácsonyra
+                            világosság legyen ott, ahol Jézust várják. Ez az
+                            embereknek egy lelki felkészülés Jézus eljövetelére.
+                        </p>
+                        <p>
+                            Az adventi koszorú hagyománya 1838-ból származik
+                            Johann Heinrich Wichern protestáns lelkésztől. Az
+                            első gyermekotthon megalapítója a ház egyik termében
+                            fából hatalmas csillárt készíttetett, és minden
+                            istentiszteleten egy újabb gyertyát tűzött a
+                            csillárkoszorúba. Ezen a kocsikerék nagyságú adventi
+                            koszorún 24 gyertya állt. Minden hétköznap
+                            meggyújtottak egy fehéret, és minden vasárnap egy
+                            pirosat. Az ötlet gyorsan követőkre talált, de csak
+                            1860-ban, Berlin-Tegelben született meg az a
+                            gondolat, hogy a fakarikát fonott fenyőkoszorúval
+                            helyettesítsék, és a huszonnégy gyertya helyett
+                            csupán négyet tűzzenek rá, a négy adventi vasárnap
+                            jelképeként.
+                        </p>
+                        <p>
+                            A gyertyák színe katolikus körökben egy kivételével
+                            lila: a bűnbánat és a megtérés jelképe. A meggyújtás
+                            sorrendjében a harmadik gyertya rózsaszín, ami a
+                            küszöbön álló ünnep fölött érzett örömöt, valamint
+                            Mária anyai örömeit szimbolizálja. Az adventi
+                            koszorún meggyújtott gyertyák közül mindegyik egy
+                            fogalmat szimbolizál: hit, remény, szeretet, öröm. A
+                            gyertyák egyben a katolikus szimbolika szerint
+                            egy-egy személyre vagy közösségre is utalnak: Ádám
+                            és Éva - mint akiknek elsőként ígérte meg Isten a
+                            megváltást (hit); zsidó nép - akinek megígérte, hogy
+                            közülük származik a Messiás (remény); Keresztelő
+                            Szent János - aki hirdette Jézus eljövetelét, és
+                            készítette az utat az emberek szívéhez (szeretet);
+                            Szűz Mária - aki megszülte a Fiút (öröm - rózsaszín
+                            gyertya).
+                        </p>
+                        <h3>Adventi kalendárium</h3>
+                        <p>
+                            Manapság nálunk is elterjedt a gyerekek által igen
+                            kedvelt adventi naptár, ami ennek az időszaknak az
+                            időmérő eszköze. Azon időszak előrehaladtára
+                            figyelmeztet nap, mint nap, melynek vége karácsony
+                            ünnepe. Az adventi házikók, naptárak ablakaiból
+                            minden nap csak egyet szabad kinyitni, mögöttük
+                            leggyakrabban édesség rejtőzik. Régen inkább kis
+                            képek, vagy karácsonyi jókívánságokra nyíltak az
+                            ablakok.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="modal"
+            id="myModal_2"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">2025. december 1.</h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="modal-kep">
+                            <img src="./images/kep_02.jpeg" />
+                        </div>
+                        <h4>Kedves Tanulók!</h4>
+                        <p>Az adventi időszak kulcsszava a várakozás.</p>
+                        <p>
+                            A várakozás a karácsony ünnepére, ami a keresztény
+                            gondolkodás szerint annak ünnepe, hogy a
+                            megszületett Jézus Krisztusban Isten megtestesült,
+                            vagyis eddig soha nem látott és tapasztalt módon
+                            jött közel az emberhez.
+                        </p>
+                        <p>
+                            Az advent azonban nem csak tétlen várakozást, hanem
+                            készülődést is jelent, felkészülést a megszülető
+                            Istengyermek fogadására.
+                        </p>
+                        <p>
+                            Éppen ezért az adventi időszakban szokássá vált az
+                            is, hogy napról-napra apró jócselekedeteket végzünk.
+                            Ennek célja egyrészt az, hogy örömet szerezzünk
+                            másoknak; de az is, hogy a mi szívünk legyen
+                            nyitottabb, figyelmesebb mások felé…
+                        </p>
+                        <p>
+                            A mai bejegyzésünkben egy ilyen „naptárt” teszünk
+                            közzé.
+                        </p>
+                        <p>
+                            Apró szívességeket, figyelmességeket tartalmaz
+                            december elsejétől minden napra…
+                        </p>
+                        <p>
+                            Lehet, hogy a Te helyzetedre, körülményeidre épp nem
+                            illik rá egyik vagy másik szívesség. Vagy éppen a
+                            jelen helyzetben nem megvalósítható.
+                        </p>
+                        <p>
+                            De nem ez a lényeg: ha valóban akarjuk, meg tudjuk
+                            találni az útját annak, hogy örömet szerezzünk
+                            másoknak…
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="modal"
+            id="myModal_3"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">2025. december 2.</h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="modal-kep">
+                            <img src="./images/kep_03.jpeg" />
+                        </div>
+                        <h4>Kedves Tanulók!</h4>
+                        <p>
+                            A korunkat meghatározó fogyasztói társadalomnak erős
+                            törekvése, hogy a karácsonyt, az ehhez kapcsolódó
+                            ajándékozás szokását kizárólagos céljává, lényegévé
+                            tegye az ünnepnek.
+                        </p>
+                        <p>
+                            A Gorove házaspár saját tapasztalatain alapuló
+                            tanácsok segíthetnek bennünket visszafogni ezt a
+                            tendenciát és a felfedezni magunknak a karácsony
+                            igazi lényegét.
+                        </p>
+                        <p>Íme:</p>
+                        <h3>Gorove László és Kriszta: Stresszmentes advent?</h3>
+                        <p>
+                            Az advent mindig a rohanás, a kapkodás, a tülekedés,
+                            és az állandó idegeskedés ideje. Talán nem is lehet
+                            másképp. Vagy mégis?
+                        </p>
+                        <p>
+                            Az alábbiakban néhány ötletet szeretnénk megosztani
+                            veletek, amelyek nálunk, vagy másoknál beváltak.
+                        </p>
+                        <ol>
+                            <li>
+                                Először is ne áltassátok magatokat. Semmi esély
+                                arra, hogy az adventi időszakban kevesebb lesz a
+                                munka, vagy nyugodtabb az élet. Ugyanúgy munkába
+                                kell járni, a gyerekeket iskolába óvodába vinni,
+                                a házimunkát ellátni. Sőt az év vége
+                                közeledtével sok munkahelyen még több is lesz a
+                                munka, gond, elvégzendő feladat. És mindehhez
+                                még a karácsonyra is készülni kell.
+                            </li>
+                            <li>
+                                Okos dolog minél előbb elintézni a karácsonyi
+                                nagytakarítást, mondjuk november végéig, hogy
+                                decemberre már csak az apróságok maradjanak.
+                            </li>
+                            <li>
+                                Semmi ne maradjon az év végére, ami előbb
+                                elintézhető. (Időszakos orvosi vizsgálat,
+                                rokonlátogatás, hivatalos ügyek intézése,
+                                útlevél kiváltás stb.) Nálunk úgyis mindig
+                                ilyenkor romlik el mosógép… 😊
+                            </li>
+                            <li>
+                                Érdemes ajándéklistát készíteni. Erre először
+                                felírni mindenkinek a nevét, akit meg akartok
+                                ajándékozni, aztán ha valami megvan mellé írni,
+                                hogy mi lesz az. Nekünk jól bevált, hogy már
+                                ősszel elkezdünk gyűjtögetni, úgy hogy december
+                                előtt már minden meglegyen.
+                            </li>
+                            <li>
+                                Ugyancsak érdemes az ajándékokat előre
+                                becsomagolni és felcímkézni ha már úgyis
+                                megvannak, vagy még egyszerűbb - ha ezen senki
+                                nem sértődik meg - csomagolás nélkül átadni. (Mi
+                                ilyenkor környezetbarát ajándékról szoktunk
+                                beszélni.)
+                            </li>
+                            <li>
+                                Ne halmozzátok az ajándékokat, elég mindenkinek
+                                egy, de az legyen meglepetés!
+                            </li>
+                            <li>
+                                Nekünk nagyon bevált az adventi naptár különböző
+                                formája. Nem csak édesség, hanem szentírási
+                                idézet, vagy esetleg egy egy feladat az adott
+                                napra is lehet benne.
+                            </li>
+                            <li>
+                                Érdemes a gyerekekkel együtt barkácsolni -
+                                készíteni ajándékot a nagyszülőknek,
+                                ismerősöknek stb. Ezzel megtanulják a saját
+                                maguk készítette ajándék örömét.
+                            </li>
+                            <li>
+                                Érdemes a karácsonyi leveleket, lapokat is
+                                időben elintézni, nekünk néha egy őszi együtt
+                                töltött hétvége fél napja alatt elkészül, és túl
+                                vagyunk rajta. Érdemes körlevelet írni a
+                                barátoknak, ismerősöknek.
+                            </li>
+                            <li>
+                                Jó dolog a gyerekekkel együtt sütni, lehetőleg
+                                olyan sütit, ami eláll karácsonyig,
+                                természetesen jól elrejtve.
+                            </li>
+                            <li>
+                                Az advent rengeteg - egyébként nagyon jó -
+                                programot is kínál, az ádventi koszorú
+                                készítéstől, a lelkinapig, de lehet hogy béke és
+                                a nyugalom érdekében nem kell ezeken mind részt
+                                venni.
+                            </li>
+                            <li>
+                                A karácsonyi vacsora lényege az együttlét, és a
+                                család öröme. Fölösleges napokat tölteni a
+                                konyhában mindenféle tradicionális karácsonyi
+                                étel főzésével idegeskedve. Nálunk a hideg
+                                saláták is tökéletesen megteszik. Ezeket előre
+                                el lehet készíteni, és csak elő kell venni a
+                                hűtőből.
+                            </li>
+                            <li>
+                                Érdemes a karácsonyi nagy élelmiszer bevásárlást
+                                is jó előre megejteni. A hajnali órák nagyon
+                                megfelelőek erre, és a közvetlen karácsonynap
+                                előtti bevásárlásra is.
+                            </li>
+                            <li>
+                                Érdemes a karácsonyfa állítást már 23-án este
+                                elkezdeni
+                            </li>
+                            <li>
+                                Előnyös ha az ajándékok között van olyan amit az
+                                este folyamán együtt lehet játszani a
+                                gyerekekkel.
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="modal"
+            id="myModal_4"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">2025. december 3.</h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="modal-kep">
+                            <img src="./images/kep_04.jpeg" />
+                        </div>
+                        <h4>Kedves Tanulók!</h4>
+                        <p>
+                            Az adventi időben régebben szokás volt az böjtöt
+                            tartani (a húsvétot megelőző nagyböjthöz hasonlóan a
+                            karácsony előtti adventi időszakot "kisböjtnek" is
+                            nevezték).
+                        </p>
+                        <p>
+                            Az adventi böjti idő alatt tiltották a zajos
+                            mulatságokat és az ünnepélyes házasságkötéseket. A
+                            böjtölés hagyománya a 20. század közepén tűnt el. Ma
+                            már leginkább csak a lila liturgikus szín és az
+                            adventi koszorúk lila gyertyái emlékeztetnek a
+                            böjtölés hagyományára.
+                        </p>
+                        <p>
+                            Jelenleg a katolikus egyházban nincsen böjti előírás
+                            az adventi időszakra vonatkozóan, ugyanakkor
+                            ajánlott a visszafogottság, csend, a több ima és
+                            lelki olvasmány, valamint a bűnbocsánat szentségéhez
+                            járulás.
+                        </p>
+                        <p>
+                            Így a mai napon adventi naptárunkban is egy édesség,
+                            egy sütemény receptjét adjuk közre:
+                        </p>
+                        <h3>Mézeskalács koszorú</h3>
+                        <p>
+                            <ins>Hozzávalók: (1 adag)</ins>
+                        </p>
+                        <p><em>A tésztához:</em></p>
+                        <p>
+                            - 40 dkg 2.15 dkg porcukor <br />- 3 kiskanál
+                            mézeskalács fűszerkeverék <br />- 1 kiskanál sütőpor
+                            <br />- 5 dkg vaj <br />- 1 db tojás <br />- 2
+                            evőkanál méz
+                        </p>
+                        <p><em>A mázhoz:</em></p>
+                        <p>- 1 db tojásfehérje <br />- 5 dkg porcukor</p>
+                        <p>Tészta tetejére: 1 db tojásfehérje.</p>
+                        <p>
+                            <ins> Elkészítés:</ins>
+                        </p>
+                        <ol>
+                            <li>
+                                Egy tálban megolvasztjuk a mézet a vajjal,
+                                hozzáadjuk a tojást, a porcukrot, a
+                                fűszerkeveréket, a sütőport és a lisztet.
+                                Alaposan összegyúrjuk és fél órára betesszük a
+                                hűtőbe.
+                            </li>
+                            <li>
+                                Lisztezett deszkán kinyújtjuk és formázzuk
+                                tetszésünk szerint. A tészta tetejét sütés előtt
+                                megkenjük tojásfehérjével. 180 C fokon 15-20
+                                perc alatt készre sütjük. Hagyjuk hűlni.
+                            </li>
+                            <li>Az alapon a gyertyák helyét szaggassuk ki.</li>
+                            <li>
+                                A mázhoz a tojásfehérjét és a porcukrot habverő
+                                segítségével verjük fel. Ez legalább 5 perc. Ha
+                                kész, nekiállhatunk díszíteni.
+                            </li>
+                            <li>
+                                Végül ragasszuk össze a díszeket az alappal.
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="modal"
+            id="myModal_5"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">2025. december 4.</h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="modal-kep">
+                            <img src="./images/kep_05.jpeg" />
+                        </div>
+                        <h4>Kedves Tanulók!</h4>
+                        <p>
+                            Újabban nálunk is elterjedt a főként gyermekek által
+                            igen kedvelt
+                            <b>adventi naptár</b>, ami a karácsony előtti
+                            időszak előrehaladtára figyelmeztet nap, mint nap.
+                        </p>
+                        <p>
+                            Használata 1900 körül kezdődött el. Mikor is egy
+                            német édesanya, akinek kisfia, Gerhard már jóval az
+                            ünnep előtt türelmetlenül várta a megszokott
+                            karácsonyi ajándékokat. Ezért édesanyja egy játékot
+                            talált ki számára: egy papírlapot 24 részre osztott,
+                            és minden részre varrt egy-egy cukorkát. Majd
+                            megengedte fiának hogy minden este egyet megegyen
+                            belőlük. A fiú, miután felnőtt, nem felejtette el az
+                            anyukája ajándékát, így vállalkozásba kezdett.
+                            Naptárt készített, amin volt 24 ablakocska, mögéjük
+                            édességek rejtve, melyek csak az ablakocskák
+                            kinyitása után váltak láthatóvá. Innen ered tehát a
+                            ma már szinte hagyománnyá vált adventi naptárunk.
+                        </p>
+                        <p>
+                            A mai napon - még az adventi időszak elején járva -
+                            egy ehető adventi naptár receptjét tesszük közzé.
+                        </p>
+                        <h3>Ehető adventi naptár vajas kekszből</h3>
+                        <h5>
+                            <ins>Hozzávalók:</ins>
+                        </h5>
+                        <p>
+                            <ins>Keksz:</ins>
+                        </p>
+                        <p>
+                            •40 dkg liszt (+ a nyújtáshoz) <br />•20 dkg
+                            porcukor <br />•20 dkg vaj <br />•1 db tojás
+                        </p>
+                        <p><ins>Cukormáz:</ins></p>
+                        <p>
+                            •1 db tojásfehérje <br />•25 dkg porcukor <br />•1
+                            evőkanál citromlé
+                        </p>
+                        <p><ins>Díszítés:</ins></p>
+                        <p>•cukorgyöngy <br />•ehető filc</p>
+                        <p>
+                            <ins>Elkészítés:</ins>
+                        </p>
+                        <ol>
+                            <li>
+                                A lisztet, a vajjal és a könnyedén felvert
+                                tojással összedolgozzuk, majd tésztát gyúrunk
+                                belőle. Folpackba csomagoljuk, és legalább 1
+                                órára hűtőszekrénybe tesszük.
+                            </li>
+                            <li>
+                                Lisztezett deszkán kb. 5 mm vastagra nyújtjuk,
+                                kiszaggatjuk és 180 fokos sütőben 5-6 perc alatt
+                                megsütjük.
+                            </li>
+                            <li>
+                                A cukormázhoz összekeverjük a tojásfehérjét, a
+                                porcukrot és a citromlevet, majd megkenjük vele
+                                a kisült vajas kekszet, és cukorgyönggyel
+                                díszítjük mindet. 1 nap szárítás után
+                                beszámozzuk őket az ehető filccel.
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="modal"
+            id="myModal_6"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">2025. december 5.</h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="modal-kep">
+                            <img src="./images/kep_06.jpeg" />
+                        </div>
+                        <h4>Kedves Tanulók!</h4>
+                        <p>December 4-e Szent Borbála ünnepe.</p>
+                        <p>Ehhez kapcsolódik a Borbála-ág hagyománya.</p>
+                        <p>
+                            Az alábbiakban egy kis ismertetőt teszünk közzé
+                            Szent Borbáláról és a kultuszához kapcsolódó
+                            szokásokról:
+                        </p>
+                        <p>
+                            Szent Borbála a középkor egyik legismertebb szentje
+                            és vértanúja Nikomédiában élt a IV. században.
+                            Borbála szűz és vértanú a tizennégy segítőszent
+                            egyike.
+                        </p>
+                        <p>
+                            Borbála (más néven Barbara) legendája röviden:
+                            Előkelő pogány édesapja, Dioscuros, féltve szép
+                            leányát a keresztény vallástól, gyakorta egy
+                            magányos toronyba záratta. Borbála e fogságában hírt
+                            kapott az alexandriai bölcsről, Órigenészről, és
+                            levélben arra kérte, hogy ismertesse meg Krisztus
+                            tanításával. Órigenész elküldte hozzá Bálint nevű
+                            papját, aki titokban megkeresztelte.
+                        </p>
+                        <p>
+                            Apja, hogy kedvében járjon leányának, fürdőházat
+                            építtetett neki, Borbála azonban az ott álló bálvány
+                            szobrát összetörte, és a falba egy harmadik ablakot
+                            is vágott, hogy a Szentháromságra emlékeztesse. A
+                            féktelen haragra gerjedő Dioscuros meg akarta ölni
+                            lányát, aki a pusztába menekült előle, de két
+                            pásztor visszahurcolta. A pogány férfi apához
+                            méltatlan kegyetlenséggel megkínoztatta Borbálát,
+                            majd elküldte a császárhoz, hogy ítélje halálra.
+                            Maximianus felszólította a szüzet, hogy mutasson be
+                            áldozatot a pogány isteneknek, s amikor a lány
+                            megtagadta ezt, megkínoztatta és börtönbe vettette.
+                        </p>
+                        <p>
+                            A fogságban Jézus megjelent a szenvedőnek, mennyei
+                            vőlegényként vigasztalva, erősítve - s a lány
+                            testéről eltűntek a kínzások nyomai. Másnap a
+                            császár ezt a pogány istenek segítségének
+                            tulajdonította, s amikor feltevése ellen Borbála
+                            tiltakozott, égő fáklyát dobott az arcába, majd
+                            meztelenül kergette végig a város utcáin. Imádságára
+                            Isten angyala ruhával borította be az ártatlan szűz
+                            testét. Maximianus dühe emiatt csak fokozódott,
+                            halálra ítélte; a lány apja maga hajtotta végre az
+                            ítéletet (†306). Borbálát a keresztény Valentinus
+                            temette el a vele együtt lefejezett Juliannával.
+                            Sírja csodák színhelye lett.
+                        </p>
+                        <p>
+                            Borbála a jó halál, a bányászok, kohászok, tüzérek,
+                            tűzszerészek, ágyú- és harangöntők, a várak, erődök
+                            védőszentje, akit pálmaággal, toronnyal, kehellyel,
+                            könyvvel szoktak megörökíteni. A középkori városok
+                            puskaporos tornyát gyakran nevezték el Szent
+                            Borbáláról, hogy a szent segítsen megóvni a
+                            veszélyes anyagot a felrobbanástól.
+                        </p>
+                        <p>
+                            A 7. századtól tisztelete egyre jobban elterjedt.
+                            Ünnepét, a legendája történeti alapját övező
+                            kérdőjelek miatt, 1969-ben kivették a hivatalos
+                            katolikus naptárból, ám kultusza nem szűnt meg.
+                        </p>
+                        <p>
+                            Az ünnep legfontosabb népi hagyománya, a Borbála-ág
+                            vágása. Szokás ezen a napon a korán virágzó cserjék,
+                            gyümölcsfák ágaiból vesszőt vágni. Eddig ugyanis már
+                            részesültek annyi hideghatásban, hogy a lakásban
+                            karácsonyig kivirágoznak. A karácsonyra kinyíló
+                            borbálaág az alábbi fákról, cserjékről vágható:
+                            aranyvessző, mogyoró, fűzfa, som, aranyéger,
+                            varázsmogyoró, téli jázmin, cseresznye, meggy.
+                            Azokat az ágakat ajánlatos levágni, amelyeket téli,
+                            vagy tavaszi metszéskor amúgy is levágnánk. Az
+                            ágakat először néhány órára 35 C fokos meleg fürdőbe
+                            fektetjük, utána állítjuk friss vízbe.
+                        </p>
+                        <p>
+                            A Borbála-ággal kapcsolatosan az a hiedelem is
+                            járja, hogy ha a lányok ezen a napon ágat törnek és
+                            vízbe helyezik, s az kizöldül karácsonyra, azt
+                            sejthetik, hogy hamarosan férjhez mennek.
+                        </p>
+                        <p>
+                            A Borbála-nap termésjósló nap is: ha aa
+                            gyümölcsfákról lemetszett ágak karácsonyra zöldellni
+                            kezdtek, az jó termést jósolt a következő évre.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="modal"
+            id="myModal_7"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">2025. december 6.</h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="modal-kep">
+                            <img src="./images/kep_07.jpeg" />
+                        </div>
+                        <h4>Kedves Tanulók!</h4>
+                        <h5>SZENT MIKLÓS NAPJA</h5>
+                        <p>Időpontja és eredete:</p>
+                        <p>
+                            Szent Miklós napja december 6-ra esik. Ünnepnapján
+                            arra emlékezünk, hogy Miklós püspök a szegényeknek
+                            adományozott pénzt, kenyeret, és egyéb élelmiszert,
+                            valamint a gyerekek és a diákok továbbá a nehéz
+                            körülmények között élők védőszentje. Innen ered a
+                            Mikulás elnevezés, és hogy minden évben eljön
+                            ajándékokat osztogatni a gyerekeknek.
+                        </p>
+                        <h5>EGY KIS ÉLETRAJZ SZENT MIKLÓSRÓL</h5>
+                        <p>
+                            Myrai v. Mürai Szent Miklós Patarában (ma
+                            Törökország) született született 270. március 15-én.
+                            Mindössze 19 éves volt, amikor nagybátyja (szintén
+                            Miklós myrai püspök) pappá szentelte, majd a Myra
+                            közelében lévő Sion kolostor apátja lett. A
+                            szüleitől örökölt vagyont szétosztotta a szegények
+                            között. Sok szegény és hátrányos helyzetben lévő
+                            gyereknek segített, így lett a gyerekek és a diákok
+                            védőszentje. A gyógyszertárosok és a hajósok
+                            védelmezője is volt. <br />Egyes források szerint
+                            Miklós részt vett az első nikaiai zsinaton (325) és
+                            megpofozta az egyik ellenlábasát Ariust (az ariánus
+                            eretnekség vezéregyéniségét). Ezért először
+                            elítélték, de a zsinat végén rehabilitálták. Miklós
+                            azonban nem szerepel a nikaiai aláírók listáján, de
+                            az is igaz, hogy ez csak részlegesen maradt fenn.
+                            <br />
+                            343. december 6-án halt meg Myraban.
+                        </p>
+                        <h5>HAGYOMÁNYAI</h5>
+                        <p>
+                            A Miklós-napnak egyértelműen hagyománya az
+                            ajándékosztás. A gyerekek kedvenc ünnepeként is
+                            szokták emlegetni. Hagyományos szokás azt mondani,
+                            ha Miklós megrázza a szakállát, akkor esik a hó.
+                            Leginkább a Dunántúlon és az északi országrészeken
+                            ismert a falvakban úgynevezett Mikulás-járás.
+                            Felvidéken jellemző még a tréfás gyóntatás is.
+                        </p>
+                        <p>
+                            A finn mikulás Jolopukki járja ebben az időszakban a
+                            világot, minden fővárosba és nagyvárosba elmegy,
+                            köztük Budapestre is. Szoktak rendezni egyes
+                            városokban a jeles nap alkalmából úgynevezett
+                            mikulás futást is. Hagyomány még az is, hogy a
+                            krampuszokkal sétál egy Miklós püspök jelmezbe
+                            öltözött ember az utcán Csehországban.
+                        </p>
+                        <p>
+                            A Miklós-nap a mai kultúrában természetesen össze
+                            van kötve a karácsonnyal főleg Amerikában, ezét sok
+                            (amerikai) ünnepi filmben láthatjuk alakját.
+                            Készítenek mikulás és Szent Miklós formájú csokikat
+                            is. A télapó elnevezést az 1950-es években
+                            hallhatták az emberek először.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="modal"
+            id="myModal_8"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">
+                            2025. december 7. Advent második vasárnapja
+                        </h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="modal-kep">
+                            <img src="./images/kep_08.png" />
+                        </div>
+                        <h4>Kedves Tanulók!</h4>
+                        <p>
+                            Az adventi időszak jellegzetes szokása a kora
+                            hajnali szentmisék, a <b>roráték</b> látogatása.
+                        </p>
+                        <p>
+                            (Az elvevezés ezen szentmisék latin nyelvű
+                            kezdőhimnuszának első sorából ered: "Rorate caeli
+                            desuper, et nubes pluant iustum" magyarul:
+                            "Harmatozzatok, magasságos egek, s a felhők hozzák
+                            az Igazat")
+                        </p>
+                        <p>
+                            Ezeken az adventi hajnali szentmiséken a szentírási
+                            olvasmányok a messiás eljöveteléről szóló prófétai
+                            jövendölések; de a karácsony, Jézus születésének
+                            fénye felé való közeledés jelképe már az is, hogy
+                            kora hajnalban még sötétben mennek az emberek a
+                            templomba, s a roráte-mise végére kivilágosodik...
+                        </p>
+                        <p>
+                            A mai bejegyzésben <b>Fekete István</b> egy
+                            novelláját olvashatjuk el és hallgathatjuk meg
+                            (Rudolf Péter felolvasásában), melynek
+                            középpontjában nem csak a hajnali szentmise áll,
+                            hanem sokkal inkább az a történet, hogy a
+                            <b
+                                >két régi haragos egyszer csak egy adventi
+                                hajnalon fel tudja oldani sértődöttségét és el
+                                tud indulni a megbékélés felé... S mi ez, ha nem
+                                egy igazi adventi, karácsonyra hangoló út?!</b
+                            >
+                        </p>
+                        <h5><b>Fekete István - Roráte</b></h5>
+                        <p>
+                            Olyanok ilyenkor a csillagok, mint az álmos gyerek
+                            szeme. Kicsit hunyorognak. És még nem tudják:
+                            sírásra vagy nevetésre nyíljanak-e, avagy aludjanak
+                            tovább. Hát, csak pislognak. Enyhe az idő, a szél
+                            csak a kerítések mellett lézeng, ámbár elég hűvösen.
+                            Az ablakok néhol nézik már a hajnalt, néhol nem, és
+                            a csizmák nem kopognak a gyalogjárón, inkább csak
+                            cuppognak.
+                        </p>
+                        <p>
+                            Néhol egy halk szó, néhol az se. Néhol csak árnyak
+                            járnak. Néhol kis lámpások imbolyognak és mutatják,
+                            hova kell lépni. Ámbár hiszen sár van mindenütt. Az
+                            ég még sötét. A tegnap gondja, mintha még aludna, a
+                            mai még nem ébredt fel. S a falu csak tiszta önmagát
+                            viszi a hajnali misére. Ajtó nem csattanik, kiáltás
+                            nincs.
+                        </p>
+                        <p>
+                            A külső mozgás bekúszik a templomba s megnyugszik.
+                            Suttog egy kicsit, vár, s amikor már a gyertyák
+                            lángja is meggyúlik a várakozástól, felkiált az
+                            időtlen vágy: „Harmatozzatok égi Magasok!”
+                        </p>
+                        <p>
+                            Mise végére egészen bemelegedett a templom, szinte
+                            otthonos lett. Legalább is így érezte ezt Baka Máté
+                            az alszegből, de így érezte ezt Hosszú Illés is
+                            ugyanonnan. Ámbár, ha tudták volna, hogy most egy
+                            véleményen vannak, aligha érezték volna, nagy harag
+                            volt ugyanis a két öreg között. Kitartó, régi harag.
+                            Formája sem volt már, nem is emlékeztek, ló volt-e
+                            az oka vagy asszony, mindenesetre ragaszkodtak
+                            hozzá, mint beteg szilva a fához.
+                        </p>
+                        <p>
+                            És most bóbiskolva várják, hogy kiürüljön a templom.
+                            Az ajtóban még mozgás, hát csak ülnek tovább, sőt
+                            Illés a lábát is kinyújtja, mert úgy kényelmesebb.
+                            Illés nem szereti a tolongást. De egyébként is ráér.
+                            Félszemmel odapislant Mátéra, hogy alszik-e már,
+                            mozdul-e már, de Máté nem mozdul. Amilyen kutya,
+                            konok ember volt világéletében, azt várja - gondolja
+                            Illés - hogy én menjek előbb. De abból nem eszel!
+                            Pedig már a gyertyát is eloltotta a dékán. Azaz a
+                            harangozó, szóval a sekrestyés. Azután: csend.
+                        </p>
+                        <p>
+                            Illés gondol erre, gondol arra, állát behúzza a
+                            meleg nyakravalóba és a szeme szép lassan
+                            lecsukódik. <br />- Nem! - ijed meg. - ezt igazán
+                            nem szabad - s Mátéra néz, aki úgy látszik elaludt.
+                            <br />Hö-hö-hö. Ez hát a híres? - mosolyodik el
+                            magában. Pedig három évvel fiatalabb. Nem nagy idő,
+                            az igaz, de mégis csak fiatalabb. Aztán meg, milyen
+                            sárgák a fülei. Na, akár a halotté. Uram Isten! Csak
+                            nem lett vele valami? <br />Harag ide, harag oda - a
+                            rothadt szilva is lepottyanik egyszer a fáról -
+                            csendben odamegy Mátéhoz, és kicsit borzongva
+                            megérinti a vállát. <br />- Hallod-e, te! Máté!
+                            <br />Máté felhorkan: <br />- Hö?! Mi? - és néz
+                            Illésre, mint a csodára. <br />- Te vagy az, Illés?
+                            <br />- Én hát. Hát mondok megnézlek, mert
+                            olyanformán ültél, hogy <br />… <br />És nézi
+                            egymást a két öreg. A templomban meleg csend, a
+                            kőszentek elmosolyodnak. <br />- Kicsit megszédültem
+                            - hazudja Máté. De áhítattal. Mert tele van a szíve.
+                            Szereti most Illést így közel látni. Már elmúlott.
+                            <br />- Há no! Hál Istennek, akko menjünk. <br />És
+                            egymás mellett kicsoszognak a templomból.
+                        </p>
+                        <p>
+                            Mi volt ez, Szentatyám? - néz fel egy pufók kis
+                            angyal Szent Péterre, ahogy az ajtó becsukódott.
+                            Olyan meleg lett a szívem egyszerre. <br />Két ember
+                            kibékült - mondja a főszent. És melegen sóhajt.
+                            <br />- Hjaj! Csoda! - suttogja a kis angyal.
+                            <br />- Hát bizony. A mai világban … <br />- És most
+                            mit csinálnak? <br />- Nézz utánuk, fiam. <br />A
+                            két öreg közben Illés háza elé ér. Az utca üres, a
+                            kémények lágy selymet füstölnek a reggelnek, s a
+                            kertekben puhán békét álmodnak a fák. <br />- Gyere
+                            be, Máté, rég voltál nálunk - mondja Illés. Lángost
+                            sütött a lányom…
+                        </p>
+                        <p>
+                            A kis angyal kérdőn néz a főszentre: <br />- Mi az a
+                            „lángos”, Szentatyám? <br />A toronyban ekkor hetet
+                            ütött az óra. S e földi hangtól megmerevedtek újra a
+                            szobrok, de a mosolygás mintha ott maradt volna az
+                            arcukon.
+                        </p>
+                        <div class="modal-video">
+                            <iframe
+                                width="420"
+                                height="345"
+                                src="https://www.youtube.com/embed/D-u7Rhr7GNU"
+                            >
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="modal"
+            id="myModal_9"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">2025. december 8.</h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="modal-kep">
+                            <img src="./images/kep_09.png" />
+                        </div>
+                        <h4>Kedves Tanulók!</h4>
+                        <p>
+                            Bár még nem érkezett meg hozzánk a idén a hó, egy
+                            kis téli hangulatot csempészhetünk lakásunkba
+                            kézműves díszekkel.
+                        </p>
+                        <p>
+                            <b
+                                >Készítsetek egy kis hóembert, ami garantáltan
+                                nem fog elolvadni még benn a meleg szobában
+                                sem.</b
+                            >
+                        </p>
+                        <p>Amire szükséged lesz:</p>
+                        <ul
+                            style="
+                                list-style-type: none;
+                                list-style-image: url('./images/hopihe.png');
+                            "
+                        >
+                            <li>fehér fonal</li>
+                            <li>
+                                néhány színes is jól jön a sapkájának és a
+                                sáljának
+                            </li>
+                            <li>
+                                zsenilia szál, szalag, szintén sálnak, sapkának,
+                                hogy nehogy fázzon
+                            </li>
+                            <li>olló <img src="./images/ollo.png" /></li>
+                            <li>gyöngy az orrának és a szemének</li>
+                        </ul>
+                        <p>
+                            Két pompont készítünk, egyik kisebb, másik nagyobb.
+                            <br />Mi a négy ujjunkra tekerjük, középen megkötjük
+                            egy másik fonallal, majd ollóval gombóccá
+                            csinosítjuk. <br />Két hosszabb szálat mindkettőn
+                            hagyni kell, azzal fogjuk összekötni a két gombócot.
+                            <br /><br />Ragasszuk rá az orrot és a szemeket,
+                            esetleg gombot is lehet. <br />Szalagból, vagy
+                            fonalból készül a sálja. <br />A fejére Készíthetünk
+                            egy zsenilia szálból hajtogatva fülmelegítőt. Ha
+                            több időnk van és fázósabb a hóemberünk, akkor kicsi
+                            sapka is kerülhet a fejére. <br /><br />Ezt úgy
+                            készítettük, hogy wc papír gurigából, kivágtunk egy
+                            ujjnyi vastag csíkot, kicsit beszűkitettük, hogy ne
+                            legyen túl nagy a hóemberünk fejére. <br />Fonalból,
+                            körbeszőttük a papírt és a tetején összekötöttük,
+                            így alakult ki a bojt. <br /><br />Ha szeretnétek
+                            egy külön posztban megmutatom, pontosan hogyan:-)
+                            <br /><br />Kérlek ti azt mutassátok meg, hogy
+                            nálatok milyen hóemberek készültek.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="modal"
+            id="myModal_10"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">2025. december 9.</h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="modal-kep">
+                            <img src="./images/kep_10.jpeg" />
+                        </div>
+                        <h4>Kedves Tanulók!</h4>
+                        <p>
+                            Az adventi idő a várakozás, a Messiás eljövetelére
+                            való felkészülés ideje.
+                        </p>
+                        <p>
+                            Ha az Ószövetség próféciáit olvassuk, azt is látnunk
+                            kell, hogy a választott népnek sokat kellett
+                            tanulnia, tapasztalnia ahhoz, hogy megértse: az
+                            ígért Messiás nem politikai értelemben lesz
+                            felszabadító, olyasvalaki, aki elűzi Izrael népének
+                            leigázóit és függetlenséget, szabadságot, hatalmat
+                            hoz a választott népnek.
+                        </p>
+                        <p>
+                            Ezt a tanulási folyamatot tárja elénk a mai napon
+                            közzétett dal, miközben elénk is tükröt tart: én
+                            milyen Messiást várok?! Olyat-e, aki ellehetetleníti
+                            az én ellenségeimet és megoldja a gondjaimat, vagy
+                            helyet adok olyan Messiásnak is, aki belülről akar
+                            átalakítani engem?!
+                        </p>
+                        <h4>KIRÁLY PÉTER - RETTEGI ZSOLT:</h4>
+                        <h5>Évezredek óta</h5>
+                        <h6>
+                            (Dal a „Jöjj el, Betlehem” c. karácsonyi
+                            oratóriumból)
+                        </h6>
+                        <p>
+                            Évezredek óta várjuk a Messiást,
+                            <br />Hogy elküldje majd nékünk <br />Isten, Szent
+                            Fiát <br />Évezredek óta <br />várjuk a kürtjelet
+                            <br />Mikor eljön majd a haragos Isten <br />ítélni
+                            mind a népeket.
+                        </p>
+                        <p>
+                            A hosszú sötétségből
+                            <br />új hajnal szele kél, <br />mikor eljön
+                            dicsőségben <br />Ő, a hadvezér, <br />a hosszú
+                            sötétségből <br />aki majd kivezet, <br />mikor
+                            leszáll majd a haragos Isten <br />ítélni mind a
+                            népeket!
+                        </p>
+                        <p>
+                            Dicsőségben, pompában jön el,
+                            <br />láttára rettegés tölt mindenkit el,
+                            <br />Tüzet hoz a földre, <br />lángol föld, s az
+                            ég, <br />minden bűnös lélek pusztul, benne ég!
+                        </p>
+                        <p>
+                            Egész életünkben várjuk az Úr jelét,
+                            <br />Mindennapjainkban látjuk szent kezét,
+                            <br />Egész életünkben <br />tudjuk, Ő vezet,
+                            <br />hisz leszállott Ő egykor a földre
+                            <br />megmenteni mind a népeket.
+                        </p>
+                        <p>
+                            Testvér, nézz magadba, látod: benned él, <br />Isten
+                            szent báránya, s nem hadvezér, <br />em dicsőségben,
+                            csendben érkezett, <br />mint Betlehembe egykor egy
+                            éjjel, <br />megmenteni mind a népeket.
+                        </p>
+                        <p>
+                            Alázattal, szegényen jön el, <br />Íme, istálló és
+                            jászol lesz a jel, <br />tüzet hoz a földre:
+                            <br />égő éltetőt, <br />minden bűnös szívet
+                            csordultig betölt.
+                        </p>
+                        <div class="modal-video">
+                            <iframe
+                                width="420"
+                                height="345"
+                                src="https://www.youtube.com/embed/yVvPcb5_Mg4"
+                            >
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="modal"
+            id="myModal_11"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">2025. december 10.</h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="modal-kep">
+                            <img src="./images/kep_11.jpeg" />
+                        </div>
+                        <h4>Kedves Tanulók!</h4>
+                        <h4><b>PAKOCS KÁROLY</b></h4>
+                        <h5><b>Születnie kell valakinek!</b></h5>
+                        <p>
+                            Kínlódik a világ. Anyakínokat érez. Szülnie kell
+                            Valakit.
+                            <br />Mert nyugtalan a föld. Haragot morognak a
+                            vezuvok, az etnák; <br />füstöt, tüzeket köhögnek s
+                            fojtogatják a családban a békét. <br />Láz rázza a
+                            nagy-hegyeket s a völgyekben reszket az ember.
+                            <br />Vajúdás ez: a föld vajúdása. Szülnie kell
+                            Valakit.
+                        </p>
+                        <p>
+                            Mély ember-sóhajok szakadnak fel a földből,
+                            <br />bosszú liheg s haragok cikáznak át a világon.
+                            <br />Láz rázza az emberi lelket: harag-láz,
+                            gyönyöröknek láza. <br />Vajúdás ez: ember vajúdása.
+                            Szülnie kell Valakit.
+                        </p>
+                        <p>
+                            Rongyba dugott gyermek vánszorog fel piszkos
+                            pince-odúkból.
+                            <br />Levegőt akar inni s napsugár-kehelyért nyújtja
+                            nyakát. <br />Sápadt, erőtlen; szederjes az ajka;
+                            rázza nyomorláz. <br />Vajúdás ez: nyomor vajúdása.
+                            Szülnie kell Valakit.
+                        </p>
+                        <p>
+                            Haragszik az Ég is. Halállal kaszálja az embert,
+                            <br />jéggel aratja vetését és kenyerét tűzzel
+                            emészti. <br />Láz rázza egünket: a haragvás isteni
+                            láza. <br />Vajúdás ez: az Ég vajúdása. Szülnie kell
+                            Valakit.
+                        </p>
+                        <p>
+                            A hosszú sötétségből E minden-vajúdásból Valakinek
+                            születnie kell,
+                            <br />aki csendesedése leszen a hegyek méhében a
+                            láznak, <br />a völgyekben az ember-remegésnek;
+                        </p>
+                        <p>
+                            aki a bosszú testvérre-indult villámait pokolba lövi
+                            <br />s kiissza sóhajaink keserű kelyhét;
+                        </p>
+                        <p>
+                            aki levegőt ád a tüdőnek, fényt a szemeknek
+                            <br />és meghímezi ruhának a rongyot;
+                        </p>
+                        <p>
+                            aki Isten-tüzeket gyújt megint a szívekben
+                            <br />s az Ég haragos szavát áthangolja allelujának.
+                        </p>
+                        <p>
+                            Vajúdik a Minden.
+                            <br />Krisztust készül újra leküldeni a földnek az
+                            ég.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="modal"
+            id="myModal_12"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">2025. december 11.</h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="modal-kep">
+                            <img src="./images/kep_12.png" />
+                        </div>
+                        <h4>Kedves Tanulók!</h4>
+                        <p>
+                            Készítsünk kedves karácsonyi díszt.
+                            <img src="./images/fa.png" />
+                        </p>
+                        <p>
+                            A házunk dísze lehet, de akár ajándékba is adhatjuk.
+                            <img src="./images/sziv.png" />
+                        </p>
+                        <p>Mire lesz szükség:</p>
+                        <ul
+                            style="
+                                list-style-type: none;
+                                list-style-image: url('./images/fa.png');
+                            "
+                        >
+                            <li>hosszabb fahéj</li>
+                            <li>színes szalagok vagy rongyok</li>
+                            <li>gomb vagy csillag</li>
+                            <li>zsineg</li>
+                            <li>ragasztó</li>
+                            <li>olló</li>
+                        </ul>
+                        <p>
+                            A fahéjra szorosan csomózzunk, szalagokat. Legyenek
+                            változatos színűek. Olyanok, amelyek számunkra
+                            idézik a karácsony színeit. <br />A fahéj két végén
+                            hagyjunk 1-1 ujjnyi szabad részt. <br />Az egyik a
+                            karácsonyfánk talpa lesz, a másik a csúcsa. Vágjuk
+                            le a szalagok végét háromszög formában, úgy, hogy a
+                            talpánál legyen szélesebb és a csúcsánál,
+                            keskenyebb. <br />Erősítsük a csúcsához az akasztót
+                            és ragasszuk rá a gombot vagy csillagot
+                            csúcsdíszként.
+                        </p>
+                        <p>Ugye milyen szép lett?</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="modal"
+            id="myModal_13"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">2025. december 12.</h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="modal-kep">
+                            <img src="./images/kep_13.jpeg" />
+                        </div>
+                        <h4>Kedves Tanulók!</h4>
+                        <p>
+                            Ismét egy csábító sütemény: ha már vendégváró
+                            nemigen lehet mostanság, jó lesz kávé mellé is
+                            nassolnivalónak - a digitális oktatás szüneteiben...
+                            ;-)
+                        </p>
+                        <h3>Csokoládés praliné</h3>
+                        <h5><ins>Elkészítés:</ins></h5>
+                        <p>
+                            A tortaforma alját kivajazzuk, és sütőpapírral
+                            béleljük.
+                        </p>
+                        <h5><ins>Ropogós alap:</ins></h5>
+                        <p>
+                            A fehércsokoládét durvára aprítjuk, majd a vajjal
+                            edényben kevergetés közben lassú tűzön
+                            felolvasztjuk. A kekszet ledaráljuk vagy
+                            nyújtódeszkán, egy sodrófa segítségével finomra
+                            törjük. Az olvasztott masszát a keksszel jól
+                            elkeverjük, kanál segítségével a tortaformába
+                            simítjuk, és jól elegyengetjük. A tortaalapot a
+                            hűtőszekrényben hagyjuk megszilárdulni.
+                        </p>
+                        <h5><ins>Tetejére:</ins></h5>
+                        <p>
+                            A prémium tortabevonót durvára aprítjuk, majd a
+                            vajjal és a Bourbon vanília pasztával edényben
+                            kevergetés közben lassú tűzön felolvasztjuk. A
+                            masszát jól elkeverjük, és az alapra kenjük.
+                            Legalább 3 órára hűtőszekrénybe tesszük, és hagyjuk
+                            megszilárdulni.
+                        </p>
+                        <h5><ins>Díszítés:</ins></h5>
+                        <p>
+                            A süteményt kb. 30 perccel tálalás előtt kivesszük a
+                            hűtőszekrényből. Az édességet kivesszük a tortából,
+                            a kakaóval megszórjuk, majd melegvízbe mártott éles
+                            késsel kis négyszögekre, pl. rombuszokra (kb. 2x2
+                            cm) vágjuk.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="modal"
+            id="myModal_14"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">2025. december 13.</h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="modal-kep">
+                            <img src="./images/kep_14.jpeg" />
+                        </div>
+                        <h4>Kedves Tanulók!</h4>
+                        <h3>Szent Lúciáról</h3>
+                        <p>
+                            December 13-án, Luca napján Szent Luca - hagyományos
+                            elnevezése szerint Szent Lúcia - szűz vértanúra
+                            emlékezik a katolikus egyház. Életéről - a többi
+                            ókeresztény korban élt szenthez hasonlóan - keveset
+                            tudunk. <br />Szent Lúcia vagy Luca (Római
+                            Birodalom, Szicília, Siracusa, 283 körül - Siracusa,
+                            304 körül) a keresztények által az 5. század óta
+                            tisztelt szűz és vértanú. A középkorban közkedvelt
+                            szent volt, legendája több művészt megihletett.
+                            <br />Lúcia védőszentje a szembetegségben
+                            szenvedőknek és vakoknak (mivel a Lúcia név a lux =
+                            fény szóból származik), a bűnbánó utcanőknek,
+                            valamint a hegyes szerszámokkal dolgozóknak
+                            (földművesek, kézművesek, varrónők, párnakészítők,
+                            nyergesek). <br />A legenda szerint Lúcia előkelő
+                            siracusai családból származott. Amikor édesanyja
+                            súlyos beteg lett, elzarándokolt vele Szent Ágota
+                            sírjához Cataniába, hogy gyógyulásért
+                            fohászkodjanak. Édesanyja gyógyulása után Lúcia
+                            álmában megjelent Szent Ágota, aki húgának nevezte
+                            őt, s elmondta neki, hogy saját hitével is meg tudta
+                            volna gyógyítani anyját. Ezután megígérte Lúciának,
+                            hogy szüzessége és szeretete jutalmaként Isten nagy
+                            dicsőségben fogja részesíteni Siracusa városát,
+                            hasonlóan, mint ahogy Catania városa is dicsőséget
+                            szerzett Ágota vértanúsága által. Ezután Lúcia
+                            kérésére anyja ígéretet tett neki, hogy nem fogják
+                            őt férjhez adni, s a hozomány fölött tetszése
+                            szerint rendelkezhet. Lúcia e vagyont a szegényekre
+                            fordította, amit vőlegénye rossz szemmel nézett. (A
+                            hagyomány szerin ekkor Luca kiszúrta a szemét és
+                            tálcán küldte el vőlegényének, mert az a szép szemei
+                            miatt szeretett belé - a festményeken gyakran ezt
+                            ábrázolják.) Amikor pedig a férfi ráébredt, hogy
+                            elesett a házasságtól és a hozománytól, bosszúból,
+                            kereszténység vádjával bíróság elé hurcolta Lúciát.
+                            Paschasius bíró először arra utasította a leányt,
+                            hogy mutasson be áldozatot a pogány isteneknek, de ő
+                            ezt megtagadta. Ezután nyilvánosházban akarta
+                            megbecsteleníttetni leányt, de a Szentlélek olyan
+                            nehézzé tette a testét, hogy nem tudták elmozdítani
+                            helyéről. Végül kegyetlen kínzások után a bíró
+                            halálra ítélte. Miután a torkába kardot döftek, nem
+                            halt meg azonnal, hanem még tanította a népet, s
+                            csak akkor lehelte ki lelkét, miután egy paptól
+                            megkapta az utolsó kenetet.
+                        </p>
+                        <h5>
+                            <b>Luca napjához kapcsolódó szokások, hiedelmek</b>
+                        </h5>
+                        <p>
+                            Mivel a régi naptár szerint erre a napra esett az év
+                            leghosszabb éjszakája, sok népi hiedelem és
+                            archaikus szokás is kötődik hozzá. A régiek a jó és
+                            a gonosz, a fény és a sötétség küzdelmének
+                            emléknapjaként tekintettek Luca napjára. Éppen ezért
+                            sok, a boszorkánysághoz, boszorkányokhoz kapcsolódó
+                            hiedelem élt Luca napjához kapcsolódóan. Luca-napon
+                            régebben tilos volt fonni, sütni és mosni. Nem volt
+                            jó ötlet kölcsönadni sem, mert az elkért dolgok
+                            boszorkányok kezére kerülhettek.
+                        </p>
+                        <h5><em>Luca-naptár:</em></h5>
+                        <p>
+                            A Luca-naptár régi magyar Luca-hagyománykör egyik
+                            eleme, ami szerint a következő esztendő januárjában
+                            a megfigyelési helyen olyan idő lesz mint Luca
+                            napján, februárban mint Luca másnapján és így
+                            egészen tovább karácsonyig.
+                        </p>
+                        <h5><em>Lucabúza:</em></h5>
+                        <p>
+                            A termést megprobálják megjósolni a lucabúza
+                            keltéssel. Luca napján búzaszemeket csíráztattak a
+                            kemence közelében, amelyek karácsony tájára
+                            zöldültek ki. A kikelt búzával a karácsonyi oltárt
+                            díszítették.
+                        </p>
+                        <h5><em>Lucázás:</em></h5>
+                        <p>
+                            Luca napján, hajnalban a gyerekek körbejárják a
+                            házakat és lopott fán vagy szalmán mondókákkal bő
+                            termést és jószágszaporulatot ígérnek kisebb
+                            ajándékokért cserébe, átkot pedig ha nem kapnak
+                            ajándékot.
+                        </p>
+                        <h5><em>Luca-tök:</em></h5>
+                        <p>
+                            Luca napján szemeket, orrot és vigyorgó szájat
+                            faragtak a sütőtökökbe, s a házak ablakai elé
+                            tették, ezzel ijesztgették egymást. Az ijesztő
+                            hatásért sötétedéskor gyertyát tettek a Luca-tök
+                            belsejébe.
+                        </p>
+                        <h5><em>Luca-napi pogácsa:</em></h5>
+                        <p>
+                            Luca napján, bő zsírral készítették a luca-pogácsát.
+                            A család minden tagjának sütnek egyet-egyet, az
+                            egyikbe pénzdarabot rejtenek el, amire hogyha valaki
+                            ráharap, szerencsés lesz.
+                        </p>
+                        <h5><em>Luca-szék készítése:</em></h5>
+                        <p>
+                            A december 13-án tartott ünnepnap - Luca napja - a
+                            karácsonyi ünnepkör részének számító nap. Magyar
+                            nyelvterületen „gonoszjáró nap”-nak is tartják, ezen
+                            a napon különösen a boszorkányok rontása ellen kell
+                            védekezni. A széknek olyan erősnek kellett lennie,
+                            hogy egy férfiember súlyát megtartsa. A Luca széke
+                            készítését december 13-án kezdik el, és kilencféle
+                            fát használnak: kökényt, borókát, jávorfát, körtét,
+                            somot, jegenyefenyőt, akácot, csert és rózsafát.
+                            Szögek helyett kizárólag fából faragott ékek tartják
+                            össze. 13 napig készül úgy, hogy minden nap csupán
+                            egy-egy műveletet lehet rajta elvégezni, innen ered
+                            az a népi mondás is, hogy „Lassan készül, mint a
+                            Luca széke”. December 25-én az éjféli misére a
+                            „mesterek” (rendszerint fiatal emberek) a kabátjuk
+                            alá rejtve lopták be a templomba a széket, majd
+                            ráállva felismerhették a boszorkányt.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="modal"
+            id="myModal_15"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">
+                            2025. december 14. Advent harmadik vasárnapja
+                        </h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="modal-kep">
+                            <img src="./images/kep_15.jpeg" />
+                        </div>
+                        <h4>Kedves Tanulók!</h4>
+                        <p>
+                            A Biblia legismertebb, legolvasottabb szakaszai
+                            között előkelő helyet foglal el az un.
+                            "Szeretethimnusz", mely Szent Pál apostolnak a
+                            korintusiaknak írott első leveléből származik.
+                            Gyakran hallhatjuk pl. esküvők, ünnepségek
+                            alkalmával is felolvasni.
+                        </p>
+                        <p>
+                            A mostani napokban talán kicsit segít a szép himnusz
+                            mondanivalóját aktualizálni, az ünnephez kapcsolódó
+                            üzenetét, jelentését megérteni az az árirat, amely a
+                            karácsonyhoz kapcsolódóan készült...
+                        </p>
+                        <p>
+                            Az 1Kor 13 („szeretethimnusz”) karácsonyi változata
+                        </p>
+                        <p>
+                            Ha házamat fenyőágakkal, gyertyákkal, égőkkel és
+                            csilingelő harangocskákkal díszítem fel, de a
+                            családom felé nincs bennem szeretet, nem vagyok
+                            egyéb, mint díszletrendező. <br />Ha a konyhában
+                            fáradozom, karácsonyi süteményeket sütök kilószámra,
+                            ízletes ételeket főzök, és az evéshez csodálatosan
+                            megterített asztalt készítek elő, de a családom felé
+                            nincs bennem szeretet, nem vagyok egyéb, mint
+                            szakácsnő. <br />Ha a szegénykonyhán segédkezem, az
+                            öregek otthonában karácsonyi énekeket éneklek, és
+                            minden vagyonomat segélyként elajándékozom, de a
+                            családom felé nincs bennem szeretet, mindez semmit
+                            sem használ nekem. <br />Ha a karácsonyfát csillogó
+                            angyalkákkal és horgolt hópelyhekkel díszítem fel,
+                            ezernyi ünnepen veszek részt, a templomi kórusban
+                            énekelek, de nem Jézus Krisztus a szívem titka,
+                            akkor nem értettem meg, hogy miről szól a karácsony.
+                            <br />A szeretet félbeszakítja a sütést, hogy a
+                            gyermekét megölelje. <br />A szeretet hagyja a
+                            lakásdíszítést, és megcsókolja házastársát. <br />A
+                            szeretet barátságos az időszűke ellenére is. <br />A
+                            szeretet nem irigyel másokat házukért, amiben jól
+                            kiválasztott karácsonyi porcelán és odaillő
+                            asztalterítő van. <br />A szeretet nem kiált rá a
+                            gyerekekre, hogy menjenek már az útból, hanem hálás
+                            érte, hogy vannak és útban tudnak lenni. <br />A
+                            szeretet nem csak azoknak ad, akiktől kap is
+                            valamit, hanem örömmel ajándékozza meg épp azokat,
+                            akik ezt nem tudják viszonozni. <br />A szeretet
+                            mindent elvisel, mindent hisz, mindent remél,
+                            mindent eltűr. <br />A szeretet soha el nem múlik.
+                            <br />A videojátékok tönkremennek, a gyöngysorok
+                            elvesznek, a számítógépek elavulnak. <br />De a
+                            szeretet ajándéka megmarad.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="modal"
+            id="myModal_16"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">2025. december 15.</h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="modal-kep">
+                            <img src="./images/kep_16.jpg" />
+                        </div>
+                        <h4>Kedves Tanulók!</h4>
+                        <p>
+                            Az adventi időszak, a karácsonyi készülődés szép
+                            hagyománya katolikus vidékeken a Szentcsalád-járás.
+                            A szokás formáját tekintve egy "kilenced", vagyis a
+                            karácsonyt megelőző kilenc napon át megtartott
+                            ájtatosság.
+                        </p>
+                        <p>
+                            A népszokás arról a bibliai eseményről emlékezik
+                            meg, amikor a gyermekét váró Szűz Mária és Szent
+                            József Betlehembe érvén szállást kerestek maguknak.
+                        </p>
+                        <p>
+                            A szálláskereső Szent Család tiszteletére 9 család
+                            összeáll, hogy december 15-től karácsony estéig
+                            naponta felváltva a Szt Családnak, ill. a Szt
+                            Családot ábrázoló képnek szállást adjanak. A soros
+                            családban már kész a házioltár égő mécsessel vagy
+                            gyertyával, ahol rendesen a többi családok is
+                            összegyülekeznek, amikor esti Úrangyalára
+                            harangoznak. Amikor a szentkép az új családhoz
+                            érkezik, letérdel a házinép, miközben megfelelő
+                            szövegezésű imádságokat mondanak. A képet a
+                            házioltárra helyezik, meggyújtják előtte a mécsest,
+                            amely mindaddig ott ég, amíg a képet másik családhoz
+                            nem viszik. A szentkép előtt rendesen ájtatosságot
+                            is szoktak végezni: a lorettói litániát, Szt József
+                            v. Jézus Szíve litániáját, majd felajánlják az egész
+                            családot a Szt Család oltalmába. Közben
+                            természetesen énekelni is szoktak megfelelő
+                            énekeket. A házbeliek napközben is föl-fölkeresik a
+                            képet, hogy rövid fohászkodással üdvözöljék.
+                            Ilyenkor rendszerint valami szegény gyermekes
+                            családot meg is szoktak ajándékozni, mintha a Szt
+                            Családnak adnák. A kilencnapos ájtatosság után a kép
+                            vagy a templomba, vagy valami jámbor lélekhez kerül,
+                            aki jövő adventig vigyáz rá.
+                        </p>
+                        <p>
+                            A szokás a XX. sz. elején gyökeresedett meg
+                            katolikus hívek, családok között, akkottájt, amikor
+                            a "Betlehemezés" szintén adventi szokása már
+                            túlságosan elprofanizálódott, komolytalanná vált.
+                        </p>
+                        <div class="modal-video">
+                            <iframe
+                                width="420"
+                                height="345"
+                                src="https://www.youtube.com/embed/W6JQ8pzgqBg"
+                            >
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="modal"
+            id="myModal_17"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">2025. december 16.</h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="modal-kep">
+                            <img src="./images/kep_17.jpeg" />
+                        </div>
+                        <h4>Kedves Tanulók!</h4>
+                        <p>
+                            A karácsonyi készülődéshez hozzátartozik a különféle
+                            sütemények készítése is.
+                        </p>
+                        <p>
+                            A mai napon egy olyan édesség receptjét tesszük
+                            közzé, amely nagyon finom, az elkészítése sem túl
+                            bonyolult, bár kicsit időigényes; ezen kívül sokáig
+                            eláll, így kiválóan alkalmas vendégek, rokonok
+                            kínálására is az ünnepi napokban. (<em
+                                >Bár az idei karácsonykor azzal is lehet
+                                számolni, hogy magunkra maradunk a süti
+                                "elpusztítására", hiszen a rokoni-baráti
+                                találkozásokra most nem annyira alkalmas a
+                                helyzet...</em
+                            >)
+                        </p>
+                        <p>Íme a karácsonyi diós linzer receptje:</p>
+                        <h4><b>Karácsonyi diós linzer</b></h4>
+                        <ul style="list-style-type: none">
+                            <li>50 dkg liszt</li>
+                            <li>2 vaníliáscukor</li>
+                            <li>30 dkg vaj</li>
+                            <li>1 citrom reszelt héja</li>
+                            <li>15 dkg darált dió</li>
+                            <li>3 evőkanál tej</li>
+                            <li>15 dkg porcukor</li>
+                        </ul>
+                        <p>
+                            Elkészítése: A hozzávalókat összekeverjük,
+                            linzertésztát gyúrunk. 3-4 milliméter vastagra
+                            nyújtjuk, majd szaggatjuk. 170 fokon 10 percig
+                            sütjük, ha kihűlt 2-2 lapocskát baracklekvárral
+                            megkenve összeragasztjuk. Karácsonyi mintázatú
+                            fémdobozokba rakjuk. 2-3 nap alatt puhulnak meg.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="modal"
+            id="myModal_18"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">2025. december 17.</h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="modal-kep">
+                            <img src="./images/kep_18.jpeg" />
+                        </div>
+                        <h4>Kedves Tanulók!</h4>
+                        <h5><b>Az Ó-antifónák</b></h5>
+                        <p>
+                            Az adventi időszak utolsó hetében (dec. 17-23.) a
+                            vesperásban (esti istendicséret, imaóra) énekelt
+                            Magnificat-ot bevezető és lezáró antifónák ezek,
+                            melyek a Megváltó utáni vágyakozást fejezik ki.
+                        </p>
+                        <p>
+                            Elnevezésük is erre utal: az advent utolsó hetében,
+                            a "célegyenesben" az egyre inkább várt Megváltó
+                            utáni vágyakozást minden egyes ilyen antifóna
+                            "Ó"-felkiáltással fejezi ki (vagyis elnevezésük nem
+                            a régi voltukra utal).
+                        </p>
+                        <p>
+                            A hét ó-antifóna a következő: O Sapientia (Ó,
+                            Bölcsesség), O Adonai (Ó, Adonai), O Radix Jesse (Ó,
+                            Jessze gyökere), O Clavis David (Ó, Dávid Kulcsa), O
+                            Oriens (Ó, napkelet), O Rex gentium (Ó, nemzetek
+                            királya), O Emmanuel (Ó, Emmánuel). A hetes szám nem
+                            véletlen. Az ókorban és a középkorban ugyanis ez a
+                            szám kiemelt szimbolikus jelentőséggel bírt.
+                        </p>
+                        <p>
+                            Az alábbi néhány bekezdésben
+                            <b>Fehérváry Jákó</b> bencés szerzetes elmélkedését
+                            idézzük meg az Ó-antifónák szerepéről,
+                            jelentőségéről, majd a videomellékletben
+                            meghallgatható is az egyik antifóna, mégpedig a dec.
+                            20-i, az "Ő Dávid kulcsa"-kezdetű:
+                        </p>
+                        <p>
+                            Egyre hosszabbak az éjszakák, pedig bennünk egyre
+                            erősebb a sóvárgás a fény és a melegség után. De
+                            nincs mit tenni - karácsonyig ez bizony így marad.
+                        </p>
+                        <p>
+                            Advent utolsó napjai, december tizenhetedikétől,
+                            liturgikusan kiemelt köznapok. A vesperás
+                            zsolozsmájában ilyenkor énekeljük a Mária
+                            hálaénekéhez tartozó úgynevezett Ó-antifónákat.
+                            Minden napnak külön antifónája van, amelyekben az
+                            Eljövendőt próbáljuk néven nevezni, megszólítani
+                            azokon a neveken, amelyeket atyáinktól kaptunk.
+                        </p>
+                        <p>
+                            Bölcsesség, Adonáj, Jessze termő ága, Dávid kulcsa,
+                            Fölkelő nap, Népek nagy királya, Emmanuel…
+                            Hívogatjuk, szólítgatjuk a homályban, szívünk
+                            legmélyén rejtőzködő, születésre váró Istent.
+                        </p>
+                        <p>
+                            Mindegyik antifóna egy gyönyörű dallamon énekelt
+                            sóhajtással kezdődik: „Ó…” A liturgia nem arra
+                            bátorít bennünket, hogy nyomjuk el vágyainkat, hogy
+                            oltsuk ki szerelmeinket, hogy kőszívű emberekként
+                            éljünk. De arra sem, hogy a bennünk követelődző
+                            igényeknek késlekedést nem ismerve eleget tegyünk, s
+                            kielégítsük azokat: arra hív, hogy ezek hangját
+                            meghalljuk, túlhalljunk rajtuk. S egy dallamot ad az
+                            ajkunkra, hogy elénekeljük és szenvedélyes imába
+                            foglaljuk a vágyaink mögött követelődző még mélyebb
+                            sóvárgást, a szavakba nem foglalható sóhajokat,
+                            amelyeket a Lélek ébreszt bennünk.v
+                        </p>
+                        <p>
+                            Merünk-e még vágyakozni? Tisztelni, szeretni,
+                            komolyan venni sóhajtozó szívünket? Bizalommal,
+                            sebezhetően, újra gyermekként megnyitni, kitenni
+                            azt? Elfogadni, átélni benne azt az Isten formájú,
+                            végtelen űrt, amelyet soha semmi és senki nem fog
+                            betölteni?
+                        </p>
+                        <div class="modal-video">
+                            <iframe
+                                width="420"
+                                height="345"
+                                src="https://www.youtube.com/embed/m4VBA7FW78M"
+                            >
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="modal"
+            id="myModal_19"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">2025. december 18.</h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="modal-kep">
+                            <img src="./images/kep_19.png" />
+                        </div>
+                        <h4>Kedves Tanulók!</h4>
+                        <p>
+                            Nálunk nincs karácsony betlehem nélkül.
+                            Elengedhetetlen kiegészítője az otthonnak, ha
+                            közeleg a karácsony. Megnyugtat, és ez az a
+                            dekoráció, amit átitat a karácsony szelleme.
+                        </p>
+                        <p>
+                            Ez a betlehem nagyon egyszerű, és egyszerűen el is
+                            készíthető, mindössze le kell töltenetek az általunk
+                            kreált figurákat, állatokat és jászolt,
+                            kinyomtatnotok, majd felragasztanotok valamilyen
+                            alapra. Elrendezgethetitek a kartonon síkban vagy
+                            akár eltolva is. A figurákra rajzolhattok, és ki is
+                            festhetitek őket.
+                        </p>
+                        <p><b>Amire szükségetek lesz</b></p>
+                        <ul>
+                            <li>olló</li>
+                            <li>sniccer</li>
+                            <li>vágólap</li>
+                            <li>ragasztó</li>
+                            <li>karton</li>
+                            <li>karton</li>
+                        </ul>
+                        <p>
+                            <b>Elkészítése</b>
+                        </p>
+                        <ol>
+                            <li>
+                                Töltsétek le, majd nyomtassátok ki a mintát,
+                                amit itt találtok:
+                                <a
+                                    href="https://tinyurl.hu/s8dJ/"
+                                    target="_blank"
+                                    >https://tinyurl.hu/s8dJ/</a
+                                >
+                            </li>
+                            <li>
+                                Vágjátok egyenként körbe a figurákat ollóval, a
+                                kisebb, aprólékosabb részeket pedig sniccerrel.
+                                Én a jászol belső felét nem vágtam ki, helyette
+                                gombostűvel pöttyöket készítettem – ezek lettek
+                                végül a csillagok –, amik világítanak, ha
+                                mögéjük tesztek egy mécsest vagy égősort.
+                            </li>
+                            <li>
+                                Vágjátok be függőlegesen a vonal mentén a
+                                figurák talapzatát. Hajtsátok fel az egyik
+                                felét, majd a másikat, két irányba. Így fog majd
+                                megállni a saját lábán a bábu.
+                            </li>
+                            <li>
+                                Ha kedvetek tartja, ragasszátok fel őket egy
+                                papírlapra. De ez el is hagyható.
+                            </li>
+                            <li>
+                                A betlehemet aztán felturbózhatjátok rafiával,
+                                arany szalagokkal, mécsesekkel, glitterrel és
+                                egyéb karácsonyi kiegészítőkkel!
+                            </li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="modal"
+            id="myModal_20"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">2025. december 19.</h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="modal-kep">
+                            <img src="./images/kep_20.jpeg" />
+                        </div>
+                        <h4>Kedves Tanulók!</h4>
+                        <h5><b>A karácsonyi bejgliről</b></h5>
+                        <p>
+                            Van egy olyan sütemény , ami nélkül nehéz elképzelni
+                            a Szentestét, a gyertyagyújtást és az ajándékozást:
+                            ez a bejgli.
+                        </p>
+                        <p>
+                            A legkedveltebb hagyományos magyar süteményeink közé
+                            tartozik a diós és mákos kalács. Minden család
+                            asztalán megtalálható. Kimondottan magyar
+                            hagyományokhoz tartozik. Csak ezen időszakban
+                            találhatók meg a boltokban is, az advent kezdetétől.
+                        </p>
+                        <p>
+                            A diós és mákos bejgli készítése néphagyomány. A
+                            néphiedelem azt állítja, hogy a mák bőséget hoz, míg
+                            a diót a rontás ellen eszik. A bejgli Sziléziából
+                            származó kalácsfajta és a 14. századtól vált
+                            ismertté Európában. A mákostekercs hazánkban a 19.
+                            században kezdett ismertté válni. Elsőként Czifra
+                            István Magyar nemzeti-szakácskönyvében 1830-ban
+                            „Posonyi finom mákos kaláts” néven szerepelt. A
+                            bejglivel rokon, a zsidó konyhában ismert flódni
+                            azonban egyszerre diós is és mákos is. A bejgli
+                            patkó alakú sütemény volt, amely elsősorban a bécsi
+                            zsidóság kedvelt ételének számított. Régen a
+                            bejglisütés egy teljes napot vett igénybe. A diót
+                            megtörték, a mákot és diót ledarálták. Meggyúrták és
+                            kinyújtották a tésztát, majd ezek után megsütötték
+                            meg a tekercseket.
+                        </p>
+                        <p><b>Az alábbiakban egy receptet teszünk közzé:</b></p>
+                        <h5><ins>Hozzávalók:</ins></h5>
+                        <h6><ins>A tésztához:</ins></h6>
+                        <ul style="list-style-type: none">
+                            <li>50 dkg liszt</li>
+                            <li>2 db tojás sárgája</li>
+                            <li>5 dkg porcukor</li>
+                            <li>1 csapott tk só</li>
+                            <li>5 dkg vaj (olvasztott, langyos)</li>
+                            <li>1 csomag instant élesztő</li>
+                        </ul>
+                        <h6><ins>Töltelékhez:</ins></h6>
+                        <ul style="list-style-type: none">
+                            <li>15-15 dkg dió és mák</li>
+                            <li>10 dkg porcukor</li>
+                            <li>Őrölt fahéj</li>
+                            <li>2 csomag vaníliás cukor</li>
+                            <li>2 sárgabaracklekvár</li>
+                            <li>2 db alma</li>
+                        </ul>
+                        <h6><ins>Kenéshez:</ins></h6>
+                        <ul style="list-style-type: none">
+                            <li>1 db tojás</li>
+                        </ul>
+                        <p>
+                            <b>Elkészítése:</b>
+                        </p>
+                        <p>
+                            A lisztet keverőtálba szitáljuk, beleöntjük a
+                            tojássárgákat, hozzáadjuk a sót, a porcukrot, a
+                            vajat, az élesztőt és annyi langyos tejet, hogy
+                            kissé keményebb tésztát kapjunk. Addig dagasztjuk
+                            amíg elválik a tészta a tál falától. Kevés liszttel
+                            meghintve, letakarva, meleg helyen a duplájára
+                            kelesztjük. Lisztezett felületen a tésztát
+                            átgyúrjuk, kétfelé vágjuk. <br />Egyenként
+                            kinyújtjuk téglalap alakú formára. Megkenjük
+                            vékonyan lekvárral, rászórjuk a porcukor és a
+                            vaníliás cukor felét, ízlés szerint fahéjat és a
+                            diót, majd durva reszelővel egyenletesen elosztva
+                            ráreszeljük az almát. <br />Feltekerjük úgy, hogy
+                            tekerés közben a két végét benyomkodjuk, majd
+                            sütőpapírral bélelt közepes tepsibe emeljük a
+                            feltekert rudat. <br />A másik tésztával és a mákos
+                            töltelékkel ugyanígy járunk el. <br />Fél órát
+                            langyos helyen újra kelesztjük, közben a sütőt
+                            előmelegítjük 190 fokra. A rudakat felvert egész
+                            tojással lekenjük, villával hosszában a közepén
+                            megszurkáljuk, majd a sütőbe toljuk, és kb 30 perc
+                            alatt barnáspirosra sütjük. Teljes kihűlés után
+                            szeleteljük és kínáljuk.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="modal"
+            id="myModal_21"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">2025. december 20.</h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="modal-kep">
+                            <img src="./images/kep_21.jpeg" />
+                        </div>
+                        <h4>Kedves Tanulók!</h4>
+                        <p>
+                            Az adventhez ill. karácsonyhoz kapcsolódóan sok
+                            finomság, mindenek előtt sütemény receptjét
+                            közzétettük már adventi napárunkban.
+                        </p>
+                        <p>
+                            De mindezek mellett általában minden háznak, minden
+                            családnak megvannak azok a szokásos ételei,
+                            amelyeket csak ezen az ünnepen készítenek el, ill.
+                            csak úgy az "igazi", ahogy mi és ahogy karácsonykor
+                            elkészítjük.
+                        </p>
+                        <p>
+                            A mai napon egy lehetséges szentesti menüsort
+                            teszünk közzé.
+                        </p>
+                        <p>
+                            Azonban - a karácsony lényegét, a betlehemi jászol
+                            egyszerűségét is szem előtt tartva - ne feledkezzünk
+                            meg azokról sem, akiknek nem kerülnek az asztalára
+                            Szentestére hasonló finomságok...
+                        </p>
+                        <p><b>Halászlé:</b></p>
+                        <p>
+                            A pontypatkókat alaposan megsózzuk, majd
+                            félretesszük. <br />Egy nagy lábasba dobjuk a
+                            kettévágott harcsafejeket, a pontygerinceket és
+                            -szeleteket. A vöröshagymákat felaprítjuk, majd
+                            rászórjuk a haldarabokra, és alaposan megsózzuk.
+                            <br />Felöntjük 3-3,5 liter vízzel, majd
+                            felforraljuk. Ha felforrt és habzik, akkor bőven
+                            megszórjuk a jó minőségű fűszerpaprikával, majd
+                            elkeverjük, és magas lángon 25-30 percig főzzük.
+                            <br />Az idő leteltével láthatjuk, hogy szinte
+                            magától leomlik a hús a csontról, de a biztonság
+                            kedvéért egy szűrőn, finoman átnyomkodjuk a
+                            halcsontokat, majd átöntjük az egész levet rajta.
+                            <br />Ezt a szép, bársonyos, sima levet
+                            visszatesszük a tűzre, újból felforraljuk, majd
+                            beledobjuk a besózott pontyszeleteket (vagy
+                            harcsafiléket és a haltejet/ikrát, ha van rá igény),
+                            és további 7-8 percig főzzük. <br />A halászlé ezzel
+                            el is készült, ki-ki ízlése szerint tálalhatja
+                            gyufatésztával, kenyérrel, hegyes erőssel.
+                        </p>
+                        <p><b>Túrós csusza:</b></p>
+                        <p>
+                            A tésztát lobogó, enyhén sós vízben fogkeményre
+                            kifőzzük. <br />A szalonnát egy centis darabokra
+                            felkockázzuk, serpenyőbe tesszük. Felöntjük annyi
+                            vízzel, ami éppen ellepi, és közepes lángon
+                            melegíteni kezdjük. Egészen addig folytatjuk, amíg
+                            minden csepp víz el nem párolog, sőt utána szép
+                            barnára, zsírjára sütjük. (A vízre azért van
+                            szükség, mert így kívül ropogós, de belül puha
+                            marad.) Ha elkészült, akkor szűrőlapáttal kivesszük
+                            a szalonnát, és félretesszük. <br />A zsírt is
+                            kiöntjük, csak három evőkanállal hagyunk benne,
+                            ehhez hozzáadjuk a tejfölt, és alaposan elkeverjük.
+                            <br />A kifőtt tésztát összeforgatjuk a tejfölös
+                            keverék és a túró egyharmadával, majd a sütőt grill
+                            fokozatra és maximum hőfokra állítjuk, és 10-12
+                            percre betesszük, amíg meg nem pirul a tészta széle.
+                            <br />Kivesszük a tésztát a sütőből, átforgatjuk,
+                            majd hozzáadjuk a túró és tejföl második harmadát,
+                            és újra visszatesszük a sütőbe 10 percre. <br />Ha
+                            kész, azonnal tálaljuk. A tetejét a maradék
+                            tejföllel és túróval meglocsoljuk.
+                        </p>
+                        <p><b>Mézes zserbó:</b></p>
+                        <ul style="list-style-type: none">
+                            <li>50dkg liszt</li>
+                            <li>2kk szódabikarbóna</li>
+                            <li>10dkg vaj</li>
+                            <li>15dkg porcukor</li>
+                            <li>2 egész tojás</li>
+                            <li>2 kanál tejföl</li>
+                            <li>4ek méz</li>
+                            <li>1 csomag pudingpor</li>
+                            <li>5dl tej</li>
+                            <li>4 kanál cukor</li>
+                            <li>25dkg vaj</li>
+                            <li>baracklekvár</li>
+                            <li>10dkg étcsokoládé</li>
+                            <li>kevés olaj</li>
+                        </ul>
+                        <p>
+                            A tésztához a vajat összekeverjük a porcukorral,
+                            majd hozzáadjuk a tojásokat. Ezután hozzákeverjük a
+                            lisztet, a szódabikarbónát, a tejfölt, végül a mézet
+                            (a mézet ha kell, előtte olvasszuk folyékonyra).
+                            <br />Amint összeállt a tészta, vágjuk 4 részre ,
+                            nyújtsuk 4 téglalappá, és laponként süssük meg.
+                            <br />A krémhez a tejet felmelegítjük, hozzáadjuk a
+                            pudingport és a cukrot. Ha kész a puding, hűlni
+                            hagyjuk, majd ha már hideg, hozzáadjuk a vajat és
+                            jól kikeverjük. <br />A sütemény összeállításakor az
+                            alsó lapra lekvárt kenünk, majd a következőre a krém
+                            felét, ezután újra lekvár és krém következik, a
+                            tetejét pedig étcsokoládéval vonjuk be úgy, hogy egy
+                            kevés olajjal felolvasztjuk a csokit, és késsel
+                            rásimítjuk a tészta tetejére. <br />Csak másnap
+                            szeleteljük fel. Minél többet áll, annál puhább lesz
+                            a tészta.
+                        </p>
+                        <p><b>(18+)</b></p>
+                        <p><b>KÓKUSZTEJES TOJÁSLIKŐR:</b></p>
+                        <p>
+                            A tojások sárgáját fehéredésig keverjük a cukorral.
+                            A tejszínt és a kókusztejet egy lábosba öntjük,
+                            melegíteni kezdjük, de nem forraljuk fel. <br />A
+                            meleg folyadék felét folyamatosan kevergetve, vékony
+                            sugárban a cukros keverékre öntjük, majd
+                            visszaöntjük az edénybe, és 3-4 percig tovább
+                            főzzük, de most sem forraljuk fel, különben
+                            kicsapódik a tojás. <br />Végül egy csipetnyi sóval
+                            és az alkohollal ízesítjük. Üvegbe töltjük, és
+                            lehűtve kínáljuk.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="modal"
+            id="myModal_22"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">
+                            2025. december 21. Advent negyedik vasárnapja
+                        </h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="modal-kep">
+                            <img src="./images/kep_22.jpeg" />
+                        </div>
+                        <h4>Kedves Tanulók!</h4>
+                        <p>
+                            A mai vasárnapon meggyújtjuk a negyedik gyertyát is
+                            a koszorún, ami azt jelenti: már csak néhány nap a
+                            karácsony.
+                        </p>
+                        <p>
+                            Ehhez kapcsolódóan tesszük közzé a négy gyertya
+                            meséjét.
+                        </p>
+                        <h4><b>A négy gyertya története</b></h4>
+                        <p>
+                            Egyszer volt, hol nem volt, volt egyszer négy
+                            gyertya. Annyira nagy volt körülöttük a csend, hogy
+                            tisztán lehetett hallani amint beszélgetnek.
+                        </p>
+                        <p>
+                            Azt mondta az első: <br />
+                            Én vagyok a BÉKE. De az emberek nem képesek életben
+                            tartani. Azt hiszem el fogok aludni. Néhány pillanat
+                            múlva már csak egy füstölgő kanóc emlékeztetett a
+                            hajdanán fényesen tündöklő lángra.
+                        </p>
+                        <p>
+                            Azt mondta a második: <br />
+                            - Én vagyok a HIT. Sajnos az emberek fölöslegesnek
+                            tartanak, nincs értelme tovább égnem... A következő
+                            pillanatban egy enyhe fuvallat kioltotta a lángot.
+                        </p>
+                        <p>
+                            Szomorúan így szólt a harmadik gyertya: <br />
+                            - Én a SZERETET vagyok! Nincs már erőm tovább égni.
+                            Az emberek nem törődnek velem, semmibe veszik, hogy
+                            milyen nagy szükségük van rám... Ezzel ki is aludt.
+                        </p>
+                        <p>
+                            Hirtelen belépett egy gyerek és mikor meglátta a
+                            három kialudt gyertyát felkiáltott: <br />
+                            - De hiszen nektek égnetek kéne MINDÖRÖKKÉ!!!
+                            Elkeseredésében sírva fakadt.
+                        </p>
+                        <p>
+                            Ekkor megszólalt a negyedik gyertya: <br />
+                            - Ne félj amíg nekem van lángom meg tudjuk gyújtani
+                            a többi gyertyát. Én vagyok a REMÉNY!!!
+                        </p>
+                        <p>
+                            A gyermek szeme felragyogott! Megragadta a még égő
+                            gyertyát és lángjával ÉLETRE keltette vele a többit.
+                        </p>
+                        <div class="modal-video">
+                            <iframe
+                                width="420"
+                                height="345"
+                                src="https://www.youtube.com/embed/OoU-SE0ad1M"
+                            >
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="modal"
+            id="myModal_23"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">2025. december 22.</h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="modal-kep">
+                            <img src="./images/kep_23.jpeg" />
+                        </div>
+                        <h4>Kedves Tanulók!</h4>
+                        <h5>Gyurkovics Tibor</h5>
+                        <h6>Karácsony</h6>
+                        <p>
+                            Egy bizonyos idő után
+                            <br />akárhány karácsonyfát láthatsz, <br />mindig
+                            csak egyet látsz <br />s a többi látszat.
+                        </p>
+                        <p>
+                            A többi öröm másé, idegen,
+                            <br />vagy elrabolt öröm, <br />Jézus Krisztus
+                            hozzánk <br />csak egyszer jön.
+                        </p>
+                        <p>
+                            Csak egyszer száll le az angyal
+                            <br />kitárt fehér szárnnyal <br />és hozza le a
+                            békességet, <br />egyszer jön Boldizsár a mirrhával.
+                        </p>
+                        <p>
+                            És többé nincsen békességünk,
+                            <br />nincs Máriánk, se szalmánk, <br />de erre az
+                            egy éjre <br />mindig emlékszünk.
+                        </p>
+                        <p>És ott is gondolnak ránk.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="modal"
+            id="myModal_24"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">2025. december 23.</h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="modal-kep">
+                            <img src="./images/kep_24.jpeg" />
+                        </div>
+                        <p>
+                            A karácsonyhoz talán a leginkább elválaszthatatlanul
+                            hozzátartozik karácsonyfa állítása.
+                        </p>
+                        <p>
+                            A mai bejegyzésben ennek a hagyománynak az
+                            eredetéről, történetéről olvashatunk.
+                        </p>
+                        <h5><b>A karácsonyfa története</b></h5>
+                        <p>
+                            <b
+                                >Az örökzöld növények tisztelete már az ókori
+                                népek hitvilágában is központi helyet foglalt
+                                el, fenyőfát először Németország területén
+                                díszítettek valamikor a 16. században. Pesten az
+                                első karácsonyfát valószínűleg Brunszvik Teréz
+                                grófnő állította 1824-ben.</b
+                            >
+                        </p>
+                        <p>
+                            A kereszténység megszületése előtt az örökzöld
+                            növények és fák különös jelentőséggel bírtak az
+                            ókori népek számára a téli időszakban, tiszteletük
+                            már a germán, a római, az egyiptomi és a kelta
+                            kultúra hagyományvilágában is ismert volt. Ahogy ma
+                            az emberek karácsonyfát állítanak, úgy ezen népek
+                            örökzöld faágakat aggattak ki otthonaik ajtajára és
+                            ablakaira, sokan ugyanis úgy tartották, hogy azok
+                            elűzik a boszorkányokat, a szellemeket, a gonosz
+                            lelkeket és távol tartják a betegségeket.
+                        </p>
+                        <p>
+                            Az életfa vagy a zöld ág élet-szimbóluma gyakran
+                            kapcsolódik a különböző ünnepek népszokásaihoz, így
+                            a téli napfordulóhoz és a karácsonyhoz is. A téli
+                            napforduló az északi féltekén december 21-22-ére
+                            esik, míg a déli június 21-22-ére. Ezért is volt,
+                            hogy míg a nyári napforduló alkalmával azért
+                            gyújtottak tüzeket, hogy elűzzék a közeledő
+                            sötétséget, addig a téli napforduló alkalmával a
+                            fény diadalát, az élet megújulásába vetett hitet
+                            ünnepelték. Sokan úgy hitték, hogy a nap
+                            tulajdonképpen egy isten, a tél pedig akkor jön el,
+                            amikor a napisten beteg és gyenge lesz. Az
+                            örökzöldek így a növények és fák virágzására, a
+                            napisten megerősödésére és a nyárra emlékeztette
+                            őket.
+                        </p>
+                        <p>
+                            Az ókori egyiptomiak egyik legjelentősebb istene Ré
+                            volt, a napisten, akit legtöbbször napkoronggal a
+                            fején ábrázoltak. A szkarabeusz, napkorong és
+                            kosfejű férfi ábrázolásának kombinációja a felkelő,
+                            déli és lenyugvó napot jelentette számukra. Az
+                            egyiptomiak a téli napforduló idején - azaz mikor Ré
+                            elkezdett felgyógyulni és megerősödni -
+                            pálmalevélből készült gyékényszőnyeggel díszítették
+                            fel otthonaikat, ami a halál felett diadalmaskodó
+                            életet szimbolizálta.
+                        </p>
+                        <p>
+                            A római világban a napfordulókor ünnepelt Saturnalia
+                            (dec. 17.) - amely során Saturnusra, a földművelés
+                            istenére emlékeztek - a vidámság és az ajándékozás
+                            napja volt, a római újévkor (jan. 1.) a házakat és
+                            templomokat zöld növényekkel és lámpákkal
+                            díszítették, a gyerekeknek és a szegényeknek pedig
+                            ajándékot adtak. (Az ókori népek a téli napfordulót
+                            december 25-én ünnepelték, az első nikaiai zsinat
+                            döntése nyomán az egyház 325-ben erre napra helyezte
+                            Jézus születésének évfordulóját.) A druidák a
+                            házakra és az imahelyekre kiaggatott örökzöld
+                            növényekben az örökkévalóság szimbólumát látták. Az
+                            örökzöld növények a viking társadalom hitvilágában
+                            is fontos szerepet játszottak: a skandinávok úgy
+                            gondolták, hogy az örökzöldek a napisten, Balder
+                            különleges növényei.
+                        </p>
+                        <p>
+                            A karácsonyfa-állítás hagyománya a 16. században
+                            terjedt el a Német-római Birodalomban, mikor a
+                            keresztények elkezdtek feldíszített fenyőfákat
+                            állítani otthonaikban. Valószínűleg Luther Márton
+                            volt az első, aki égő gyertyákkal díszített fel
+                            karácsonyfát. A német reformátor éppen hazafelé
+                            tartott egy téli estén, mikor az egyik fenyőn
+                            egyszer csak ragyogó csillagfényekre lett figyelmes;
+                            Luthert annyira magával ragadta a látvány, hogy
+                            mikor hazaért, mindenáron be akart számolni
+                            családjának a jelenségről, s jobb ötlete nem lévén,
+                            elővett egy fát és gyertyákat helyezett rá.
+                        </p>
+                        <p>
+                            A szokás Amerikában még a 19. században is furcsának
+                            hatott, a karácsonyfa-állításról fennmaradt első
+                            feljegyzés az 1830-as évekből származik és
+                            Pennsylvania német telepeseinek nevéhez fűződik, bár
+                            a hagyomány a német otthonokban jóval korábban
+                            meggyökeresedett. Pennsylvania német lakosai
+                            1747-ben is felállították a maguk közösségi fáját,
+                            de jó száz évig a legtöbb amerikai azt pogány
+                            szokásnak tartotta.
+                        </p>
+                        <p>
+                            A puritán örökséget az egyre befolyásosabb német és
+                            ír bevándorlók ásták alá. A karácsonyfa később
+                            komoly támogatókra talált Viktória brit királynő és
+                            férje, Albert szász-coburg-gothai herceg
+                            személyében: a királyi pár 1846-ban az Illustrated
+                            London News című lap egyik rajzán volt látható
+                            gyermekeik körében a feldíszített fenyőfa mellett.
+                            Viktória - ellentétben elődjeivel - rendkívül
+                            népszerű volt az alattvalók között, s ha valamit
+                            tett, abból kis túlzással divat lett; nemcsak
+                            Nagy-Britanniában, hanem a tengerentúlon, a keleti
+                            parton is. A fa ezzel végleg megérkezett az USA-ba.
+                        </p>
+                        <p>
+                            Az 1890-es években a karácsonyfa hihetetlen
+                            népszerűségre tett szert, Amerika pedig nagyra tört
+                            - legalábbis ami a karácsonyfák méretét illeti:
+                            ugyanis míg Európában ebben az időben maximum 1,2
+                            méter magas fenyőket vágtak ki, addig az amerikaiak
+                            plafonig érő fákat állítottak. A 20. század elején
+                            az amerikaiak házilag gyártott díszeket aggattak a
+                            fenyőre, míg a németek továbbra is az almát, a
+                            mogyorót vagy éppen a marcipános sütit favorizálták.
+                            Hamarosan elterjedtek az égősorok is, így a
+                            karácsonyfák napokon át hirdethették az ünnep
+                            szentségét - s immáron egyre többször a városok
+                            főterein.
+                        </p>
+                        <p>
+                            A szokás Berlinből került át Bécsbe, ahol a 19.
+                            század első évtizedeiben az arisztokrata családok és
+                            a művészek körében gyorsan elterjedt. A század
+                            közepén már a polgárcsaládok körében is
+                            megünnepelték ezt a napot; érdekesség, hogy mikor
+                            1860 karácsonyán Erzsébet királyné Madeira szigetén
+                            volt gyógykezelésen, Ferenc József e távoli helyre
+                            is küldött neki feldíszített fenyőfát.
+                        </p>
+                        <p>
+                            Pesten az első karácsonyfát valószínűleg Brunszvik
+                            Teréz grófnő állította 1824-ben, ám elterjesztésében
+                            jelentős szerepe volt a Podmaniczky és a Bezéredy
+                            családoknak is. Az új szokás a városokban viszonylag
+                            gyorsan meghonosodott. A hatvanas években, adventi
+                            időszakban, Pesten fenyővásárok voltak. Az aradi
+                            Alföld című újság 1862-ben arról számolt be, hogy
+                            egy nőnevelő-intézet növendékei Deák Ferencnek
+                            karácsonyfát állítottak, amelynek minden ágán
+                            egy-egy általuk készített kézimunka függött. A
+                            magyar szépirodalomban a karácsonyfa 1866-ban, Jókai
+                            Mór <em>A koldusgyermek</em> című karácsonyi tárgyú
+                            elbeszélésében jelent meg először.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="modal"
+            id="myModal_25"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                        <h4 class="modal-title">
+                            2025. december 24. Szenteste
+                        </h4>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                        ></button>
+                    </div>
+
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                        <div class="modal-kep">
+                            <img src="./images/kep_25.jpeg" />
+                        </div>
+                        <p>Ma Szenteste napja van.</p>
+                        <p>
+                            Eljutottunk adventi naptárunk utolsó bejegyzéséhez.
+                        </p>
+                        <p>
+                            <b
+                                >A mai estén - mielőtt áldott, békés, örömteli,
+                                szeretetteljes ünneplést kívánnánk Önöknek -
+                                szeretnénk megköszönni, hogy az adventi
+                                időszakban figyelemmel kísérték naptárunkat!
+                                Bízunk benne, hogy Önöknek is épülésére, az
+                                ünnepre való felkészülésére szolgált!</b
+                            >
+                        </p>
+                        <p>
+                            És természetesen
+                            <b
+                                >szeretnénk megköszönni iskolánk 9.A és 9.B
+                                osztályos tanulóinak is, hogy munkájukkal,
+                                keresésükkel, beküldött anyagaikkal részesei
+                                voltak a naptár összeállításának!</b
+                            >
+                        </p>
+                        <p>
+                            A mai napon egy verscsokrot valamint egy dalt
+                            szeretnénk átnyújtani az ünnephez kapcsolódóan!
+                        </p>
+                        <p>
+                            <em
+                                >„Ne a hóban, csillagokban, ne ünnepi foszlós
+                                kalácson, ne díszített fákon, hanem a szívekben
+                                legyen karácsony!”</em
+                            ><br />Szilágyi Domokos
+                        </p>
+                        <h5><b>Szabó T. Anna</b></h5>
+                        <h5><b>Az ünnep azé aki várja</b></h5>
+                        <p>
+                            Aki magot szór ablakába
+                            <br />és gyertya vár az asztalán. <br />A várók nem
+                            várnak hiába. <br />Egy angyal kopogott talán?
+                        </p>
+                        <p>
+                            Szárnysuhogás az ablakon túl -
+                            <br />vigyázz! Kinézni nem szabad! <br />Künn az
+                            angyalhad térül-fordul, <br />egy pillanatra
+                            látszanak.
+                        </p>
+                        <p>
+                            A karácsonyfát hozzák - hallod?
+                            <br />- egy koppanás, és leteszik. <br />Fényben
+                            úszik az üvegajtód, <br />s megint suhogás. Mi ez
+                            itt?
+                        </p>
+                        <p>
+                            Zöld angyaltoll: egy kis fenyőág,
+                            <br />karácsonyszagú és meleg. <br />“Gyújtsd meg a
+                            legutolsó gyertyát!” <br />Ez az angyali üzenet.
+                        </p>
+                        <p>
+                            És be is mehetsz - vár az ünnep,
+                            <br />és minden zárt ajtót kitár. <br />A fa alatt
+                            angyalok ülnek - <br />az ünnep azé, aki vár.
+                        </p>
+                        <h5><b>Gerzsenyi Sándor</b></h5>
+                        <h5><b>Várom őt</b></h5>
+                        <p>
+                            Szenteste, hogyha újra eljön, én is
+                            <br />csatlakozom a csordapásztorokhoz <br />és
+                            térdemen, ha Betlehembe érek <br />tudom, Jézusom
+                            vétkemből feloldoz.
+                        </p>
+                        <p>
+                            És bárány lesz a szívem. Tiszta, gyapjas,
+                            <br />fehér, szelíd bárány. Karomba véve
+                            <br />megcsókolom majd ujjongó örömmel <br />és
+                            rábízom örökre szent kezére.
+                        </p>
+                        <p>
+                            S végül egy szokás, amely Szenteste a családokban a
+                            szeretetet és az összetartozást fejezi ki:
+                        </p>
+                        <p>
+                            <b
+                                >A családfő egy almát annyi gerezdre vágott,
+                                ahányan az asztalt körülülték: mindenki kapott
+                                belőle, hogy olyan kerek és összetartó legyen a
+                                család, amilyen kerek az alma, s hogy ha valaki
+                                eltévedne, a közösen evett almára visszagondolva
+                                hazataláljon.</b
+                            >
+                        </p>
+                        <div class="modal-video">
+                            <iframe
+                                width="420"
+                                height="345"
+                                src="https://www.youtube.com/embed/hcfnrYjJdnM"
+                            >
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            let fiokok = document.querySelectorAll('.fiok');
+
+            for (let i = 0; i < fiokok.length; i++) {
+                fiokok[i].setAttribute('data-bs-toggle', 'modal');
+                fiokok[i].setAttribute('data-bs-target', `#myModal_${i + 1}`);
+                fiokok[i].addEventListener('click', () => {
+                    console.log(i);
+                });
+            }
+        </script>
+    </body>
 </html>
